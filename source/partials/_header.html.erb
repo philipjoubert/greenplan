@@ -1,0 +1,34 @@
+<nav class="navbar navbar-light">
+  <div class="container">
+    <% link_to "/", class: "navbar-brand" do %>
+      <%= image_tag "logo.png" %>
+    <% end %>
+    <div class="pull-right">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+        ☰
+      </button>
+    </div>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+      <ul class="nav navbar-nav pull-right">
+        <li class="nav-item active">
+          <%= link_to "Home", "/", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Design Builder", "/design-builder", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "XA-10400", "/xa-10400", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Consulting", "/consulting", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Case Studies", "/case-studies", class: "nav-link" %>
+        </li>
+        <li class="nav-item">
+          <%= link_to "Blog", "/blog", class: "nav-link" %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

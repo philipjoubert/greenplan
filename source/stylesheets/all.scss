@@ -1,0 +1,33 @@
+@import "variables";
+
+@import "bootstrap";
+
+@import "components/images";
+@import "components/sections";
+@import "components/navbar";
+@import "components/typography";
+@import "components/utilities";
+
+@import "pages/article";
+@import "pages/home";
+
+footer {
+	padding: 3rem 0 2rem 0;
+	border-top: 1px solid $white-dark;
+	h4 {
+		font-size: 1rem;
+		font-weight: 600;
+		text-transform: uppercase;
+		margin-bottom: 1rem;
+	}
+	a {
+		display: block;
+		color: $gray-blue;
+		font-size: 1rem;
+		margin-bottom: 0.4rem;
+	}
+	a:hover {
+		color: $gray-blue-dark;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,17 @@
+.strong, .text-bold {
+	font-weight: 600;
+}
+
+.text-medium {
+	font-weight: 500;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-header;
+	font-weight: 700;
+}
+
+p {
+	font-size: 1.1rem;
+}

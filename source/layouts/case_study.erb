@@ -1,0 +1,17 @@
+<% wrap_layout :layout do %>
+<div class="hero hero-sm ">
+	<div class="hero-content container">
+		<h1><%= current_article.data.title %></h1>
+	</div>
+	<div class="hero-pattern snapfield"></div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-xl-8 col-lg-8 col-md-10 center-block">
+		  <article>
+		    <%= yield %>
+		  </article>
+		</div>
+</div>
+<% end %>
