@@ -1,12 +1,21 @@
 <% wrap_layout :layout do %>
 
-<div class="container">
+
+<div class="case-study container">
 	<div class="row">
-		<div class="col-xl-8 col-lg-8 col-md-10 center-block">
+		<header>
 			<h1><%= current_article.data.title %></h1>
+			<p><%= current_article.data.description %></p>
+		</header>
+		<div class="col-xl-8 col-lg-8 col-md-10 center-block">
 		  <article>
 		    <%= yield %>
 		  </article>
 		</div>
+	</div>
+</div>
+
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
 </div>
 <% end %>

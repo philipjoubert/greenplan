@@ -1,16 +1,44 @@
 ---
 title: Enterprise App Case Studies
 ---
+<div id="case-studies-index">
+	<div class="container text-center m-y-lg">
+		<header>
+			<h1 class="text-uppercase">Case Studies</h1>
+			<p>A catalog of resources on how to succeed with video marketing.</p>
+		</header>
+	</div>
 
-<div class="hero hero-md hero-home">
-  <div class="hero-content container">
-    <h1 class="m-b-md">Case Studies</h1>
-  </div>
-  <div class="hero-pattern snapfield"></div>
+	<section>
+		<div class="container">
+			<div class="row">
+				<% blog("case-studies").articles.each do |article| %>
+					<div class="col-lg-4 col-md-6 col-sm-6">
+						<div class="case-study-article">
+							<% link_to article do %>
+								<div class="image" style="background-image: url(<%= case_study_image(article) %>)">
+								</div>
+							<% end %>
+							<div class="body">
+								<div class="heading">
+									<% link_to article do %>
+										<%= article.title %>
+									<% end %>
+								</div>
+								<div class="description">
+									<% link_to article do %>
+										<%= article.metadata[:page]['description'] %>
+									<% end %>
+								</div>
+							</div>
+						</div>
+					</div>
+				<% end %>
+			</div>
+		</div>
+	</section>
 </div>
 
-<div class="container">
-  <% blog("case-studies").articles.each do |article| %>
-    <%= link_to article.title, article %>
-  <% end %>
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
 </div>

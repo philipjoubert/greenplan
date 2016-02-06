@@ -1,5 +1,6 @@
 .navbar {
 	padding: 0.8rem 1rem;
+	border-bottom: 1px solid $white-dark;
 }
 
 .navbar-white {
@@ -9,3 +10,9 @@
 .navbar-light .navbar-nav .nav-link {
 	font-size: 1.05rem;
 }
+
+a.nav-link {
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+

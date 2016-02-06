@@ -2,6 +2,7 @@
 
 @import "bootstrap";
 
+@import "components/buttons";
 @import "components/images";
 @import "components/sections";
 @import "components/navbar";
@@ -10,6 +11,7 @@
 
 @import "pages/article";
 @import "pages/home";
+@import "pages/consulting";
 
 footer {
 	padding: 3rem 0 2rem 0;
@@ -29,5 +31,149 @@ footer {
 	a:hover {
 		color: $gray-blue-dark;
 		text-decoration: none;
+	}
+}
+
+.hero {
+  position: relative;
+  min-height: 427px;
+  height: 427px;
+  background-repeat: no-repeat;
+  background: url("/images/cover_home.jpg") center center;
+  background-size: cover;
+}
+
+.hero h1 {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1.3px;
+}
+
+.hero h1 small.secondary {
+  color: inherit;
+  display: block;
+  font-size: 13.5px;
+  letter-spacing: 2px;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+.hero-image {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+}
+
+.hero-content {
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+
+.vertical-center {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+.vertical-center > .inner {
+  vertical-align: middle;
+}
+
+.vertical-center > .inner {
+    display: table-cell;
+}
+
+.content-narrow {
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.case-study-article {
+	border: 1px solid $white-dark;
+	margin-bottom: 2rem;
+	a:hover, a:focus {
+		text-decoration: none;
+	}
+	.image {
+		height: 200px;
+	}
+	.body {
+		padding: 15px 15px;
+		min-height: 300;
+	}
+	.heading {
+		margin-bottom: 10px;
+	}
+	.heading a {
+		color: $gray-blue-dark;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 23px;
+	}
+	.description a {
+		color: #888D92;
+		font-size: 13px;
+		font-weight: 400;
+		line-height: 23px;
+	}
+}
+
+
+.case-study {
+	header {
+		padding: 3rem 0;
+		border-bottom: 1px solid $white-dark;
+		h1 {
+			color: #363a46;
+	    font-size: 40px;
+	    text-transform: none;
+	    font-weight: 600;
+	    letter-spacing: 0;
+	  }
+	  p {
+	  	color: #aab1bb;
+	    font-size: 23px;
+	    line-height: 40px;
+	    font-weight: 400;
+	  }
+	}
+	article {
+		h2, h3, h4, h5 {
+			color: #56b880;
+		}
+	}
+}
+
+#testimonials {
+	padding: 5rem;
+	text-align: center;
+	blockquote {
+		font-size: 1.7rem;
+    line-height: 1.6;
+    margin: 0;
+    margin-bottom: 30px;
+    color: $gray-blue-dark;
+	}
+	h5 {
+		text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: #9A9FA9;
+	}
+}
+
+#case-studies-index {
+	header {
+		padding: 2rem 0 1rem;
+	}
+	header p {
+		font-size: 1.4rem;
+		color: #aab1bb;
 	}
 }
