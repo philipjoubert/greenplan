@@ -1,9 +1,26 @@
 <% wrap_layout :layout do %>
 
+<div class="hero hero-md" id="hero-design-builder">
+  <div class="hero-content">
+    <div class="vertical-center">
+      <div class="inner">
+        <h1>
+          Design Builder Training 
+          <small class="secondary">
+            We offer a variety of training courses
+          </small>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= partial "partials/training_nav" %>
+
 <div class="training-module">
 	<div class="container">
 		<div class="row">
-			<div class="training-sidebar col-md-3">
+			<div class="sidebar-navigation col-md-3">
 				<h5>Training Modules</h5>
 				<ul>
 					<% blog("training-modules").articles.each do |article| %>
@@ -16,7 +33,8 @@
 			<div class="col-md-9">
 				<article>
 					<h1><%= current_article.data.title %></h1>
-				<%= yield %>
+					<%= yield %>
+				</article>
 			</div>
 	</div>
 </div>

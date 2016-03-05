@@ -1,0 +1,32 @@
+<% wrap_layout :layout do %>
+
+<div class="training-module">
+	<div class="container">
+		<div class="row">
+			<div class="sidebar-navigation col-md-3">
+				<h5>Sections</h5>
+				<ul>
+					<li>
+						<%= nav_link "Packages", "#packages" %>
+					</li>
+					<li>
+						<%= nav_link "Hardware Requirements", "#hardware-requirements" %>
+					</li>
+					<li>
+						<%= nav_link "Downloads", "#Downloads" %>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-9">
+				<article>
+					<%= yield %>
+				</article>
+			</div>
+	</div>
+</div>
+
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
+</div>
+
+<% end %>

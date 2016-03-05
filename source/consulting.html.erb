@@ -1,3 +1,7 @@
+---
+title: Consulting Services
+---
+
 <div class="hero hero-md" id="hero-design-builder">
   <div class="hero-content">
     <div class="vertical-center">
@@ -13,33 +17,24 @@
   </div>
 </div>
 
-<section class="p-y-lg b-b">
-	<div class="container">
-		<div class="content-narrow">
-			<header>
-				<h3>We are the leading consulting engineers in SA</h3>
-			</header>
-			<p>
-				<%= lorem.sentences 5 %>
-			</p>
-		</div>
-	</div>
-</section>
-
 <div class="section-lg">
 	<div class="container">
 		<header class="section-header">
-			<h3>Services</h3>
+			<div class="content-narrow">
+				<h3>Services</h3>
+				<p>
+					<%= lorem.sentences 5 %>
+				</p>
+			</div>
 		</header>
 		<div class="row">
 			<% blog("consulting").articles.each do |service| %>
-				<div class="service col-lg-3 col-md-4 col-sm-6 m-b-md">
-					<% link_to service do %>
+				<div class="col-lg-4 col-md-4 m-b-md">
+					<% link_to service, class: "service" do %>
 						<h4><%= service.title %></h4>
 						<p>
 							<%= service.metadata[:page]['description'] %>
 						</p>
-					<%= link_to "Learn more", service %>
 					<% end %>
 				</div>
 			<% end %>

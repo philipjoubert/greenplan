@@ -1,10 +1,20 @@
 .service {
+	border: 1px solid $white-dark;
+	padding: 15px;
+	display: block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 	h4 {
 		font-size: 1.2rem;
 		line-height: 1.5;
 	}
-	a:hover, a:focus {
+	&:hover, &:focus {
 		text-decoration: none;
+	}
+	&:hover {
+		background-color: #ddd;
 	}
 
 	p {

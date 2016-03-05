@@ -11,6 +11,8 @@ page '/*.txt', layout: false
 
 page '/training/module/*.txt', layout: "training-module"
 
+page '/design-builder/resource*', layout: "resources"
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 

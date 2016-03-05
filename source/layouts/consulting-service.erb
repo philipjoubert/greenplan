@@ -2,11 +2,23 @@
 
 <div class="case-study container">
 	<div class="row">
-		<header>
-			<h1><%= current_article.data.title %></h1>
-			<p><%= current_article.data.description %></p>
-		</header>
-		<div class="col-xl-8 col-lg-8 col-md-10 center-block">
+		<div class="col-lg-12">
+			<header>
+				<h1><%= current_article.data.title %></h1>
+				<p><%= current_article.data.description %></p>
+			</header>
+		</div>
+		<div class="sidebar-navigation col-md-3 hidden-sm-down">
+			<h5>Consulting Services</h5>
+			<ul>
+				<% blog("consulting").articles.each do |article| %>
+				<li>
+					<%= nav_link article.title, article.url %>
+				</li>
+				<% end  %>
+			</ul>
+		</div>
+		<div class="col-md-9">
 		  <article>
 		    <%= yield %>
 		  </article>
