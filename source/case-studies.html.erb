@@ -22,7 +22,8 @@ title: Case Studies
 							<div class="body">
 								<div class="heading">
 									<% link_to article do %>
-										<%= article.title %>
+										<div class="client"><%= article.metadata[:page]['customer'] %></div>
+										<h5><%= article.title %></h5>
 									<% end %>
 								</div>
 								<div class="description">

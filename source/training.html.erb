@@ -17,44 +17,45 @@ title: Training
   </div>
 </div>
 
-<%= partial "partials/training_nav" %>
+<%= partial "partials/design_builder_nav" %>
 
-<div class="container">
-	<div class="row">
-		<div class="col-xl-8 col-lg-8 col-md-10 center-block">
-			<h2>DesignBuilder Training Courses</h2>
+<div class="container m-t-lg">
+	<header class="section-header">
+		<div class="content-narrow">
+			<h3>DesignBuilder Training Courses</h3>
 			<p>
-				DesignBuilder Simulation Training courses are a great way to learn best practice use of the software from the experts. Courses are suitable for new and experienced users alike and provide an excellent opportunity to learn the best modelling techniques.
-			</p>
-			<p>
-				Courses are modular – you may attend any one or more. For the last three days it is assumed that you have an understanding of the 3D modeller and Simulation aspects of DesignBuilder.   
-			</p>
-
-			<h2>Upcoming courses</h2>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>Date</th>
-						<th>Location</th>
-						<th>Description</th>
-					</tr>
-				</thead>
-				<tbody>
-					<% data.training.courses.each do |course| %>
-					<tr>
-						<td><%= course.date %></td>
-						<td><%= course.location %></td>
-						<td>
-							<h5><%= course.title %></h5>
-							<p>
-								<%= course.description %>
-							</p>
-						</td>
-					</tr>
-					<% end %>
-				</tbody>
-			</table>
+			DesignBuilder Simulation Training courses are a great way to learn best practice use of the software from the experts. Courses are suitable for new and experienced users alike and provide an excellent opportunity to learn the best modelling techniques.
+		</p>
 		</div>
+	</header>
+	<div class="content-narrow">
+		<h2>Upcoming courses</h2>
+		<p>
+			Courses are modular – you may attend any one or more. For the last three days it is assumed that you have an understanding of the 3D modeller and Simulation aspects of DesignBuilder.   
+		</p>
+		<table class="table training-courses">
+			<thead>
+				<tr>
+					<th>Date</th>
+					<th>Location</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% data.training.courses.each do |course| %>
+				<tr>
+					<td><%= course.date %></td>
+					<td><%= course.location %></td>
+					<td>
+						<h5><%= course.title %></h5>
+						<p>
+							<%= course.description %>
+						</p>
+					</td>
+				</tr>
+				<% end %>
+			</tbody>
+		</table>
 	</div>
 </div>
 

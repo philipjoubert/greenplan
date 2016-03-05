@@ -11,34 +11,74 @@ title: Contact
 	</div>
 </div>
 
-<div class="container">
-	<div>
-		Email <%= link_to "info@greenplan.co.za", "mailto: info@greenplan.co.za" %>
-	</div>
-	<div>
-	<div>
-		<strong>Tel</strong><br>
-		<tel>+27 (0) 21 880 2925</tel>
-	</div>
-	<div>
-		Fax +27 (0) 21 887 9031
-	</div>
-	Physical Address
-	<address>
-		391 De Zalze Estate,
-		Strand Road,
-		Stellenbosch, 7600
-		South Africa
-	</address>
+<div class="container m-b-lg">
+	<div class="row">
+		<div class="col-md-6 hidden-sm-down">
+			<form name="contact" action="thank-you" netlify>
+			  <p>
+			    <label>Your Name:</label>
+			    <input type="text" placeholder="Elon Musk" name="name" class="form-control">
+			  </p>
+			  <p>
+			    <label>Your Email Address</label>
+			    <input type="email" name="email" placeholder="elon@spacex.com" class="form-control">
+			  </p>
+			  <p>
+			    <label>Message</label>
+			    <textarea name="message" rows="3" placeholder="Message" class="form-control"></textarea>
+			  </p>
+			  <p>
+			    <button class="btn btn-success btn-lg">Send</button>
+			  </p>
+			</form>
+		</div>
+		<div class="col-md-6 contact-details">
+			<div class="m-b">
+				<div class="text-green">
+					Email
+				</div>
+				<%= link_to "info@greenplan.co.za", "mailto: info@greenplan.co.za" %>
+			</div>
 
-	Postal Address
-	<address>
-		P.O. Box 12102
-		Die Boord, 7613
-		Stellenbosch
-		South Africa
-	</address>
-</div>
+			<div class="m-b">
+				<div class="text-green">
+					Telephone
+				</div>
+				<tel>+27 (0) 21 880 2925</tel>
+			</div>
+
+			<div class="m-b">
+				<div class="text-green">
+					Fax
+				</div>
+				 +27 (0) 21 887 9031
+			</div>
+
+			<div class="m-b">
+				<div class="text-green">
+					Physical Address
+				</div>
+				<address>
+					391 De Zalze Estate,
+					Strand Road,
+					Stellenbosch, 7600
+					South Africa
+				</address>
+			</div>
+
+			<div class="">
+				<div class="text-green">
+					Postal Address
+				</div>
+				<address>
+					P.O. Box 12102
+					Die Boord, 7613
+					Stellenbosch
+					South Africa
+				</address>
+			</div>
+		</div>
+	</div>
 </div>
 
 <div class="google-map" id="map"></div>
