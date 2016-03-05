@@ -1,8 +1,16 @@
-<div class="hero hero-sm hero-home">
-  <div class="hero-content container">
-    <h1 class="m-b-md">Consulting like a boss</h1>
+<div class="hero hero-md" id="hero-design-builder">
+  <div class="hero-content">
+    <div class="vertical-center">
+      <div class="inner">
+        <h1>
+          Consulting Services 
+          <small class="secondary">
+            Building Performance Analysis Software
+          </small>
+        </h1>
+      </div>
+    </div>
   </div>
-  <div class="hero-pattern snapfield"></div>
 </div>
 
 <section class="p-y-lg b-b">
@@ -24,14 +32,14 @@
 			<h3>Services</h3>
 		</header>
 		<div class="row">
-			<% data.mysheet['services'].each_with_index do |service, i| %>
+			<% blog("consulting").articles.each do |service| %>
 				<div class="service col-lg-3 col-md-4 col-sm-6 m-b-md">
-					<% link_to "/consulting/#{service.slug}" do %>
-					<h4><%= service.name %></h4>
-					<p>
-						<%= service.blurb %>
-					</p>
-					<%= link_to "Learn more", "/consulting/#{service.slug}" %>
+					<% link_to service do %>
+						<h4><%= service.title %></h4>
+						<p>
+							<%= service.metadata[:page]['description'] %>
+						</p>
+					<%= link_to "Learn more", service %>
 					<% end %>
 				</div>
 			<% end %>

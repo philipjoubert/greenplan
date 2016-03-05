@@ -12,6 +12,7 @@
 @import "pages/article";
 @import "pages/home";
 @import "pages/consulting";
+@import "pages/training_module";
 
 footer {
 	padding: 3rem 0 2rem 0;
@@ -41,6 +42,11 @@ footer {
   background-repeat: no-repeat;
   background: url("/images/cover_home.jpg") center center;
   background-size: cover;
+}
+
+.hero-md {
+	min-height: 320px;
+  height: 320px;
 }
 
 .hero h1 {
@@ -176,4 +182,9 @@ footer {
 		font-size: 1.4rem;
 		color: #aab1bb;
 	}
+}
+
+#map {
+	width: 100%;
+	height: 300px;
 }

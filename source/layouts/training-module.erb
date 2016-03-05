@@ -1,0 +1,28 @@
+<% wrap_layout :layout do %>
+
+<div class="training-module">
+	<div class="container">
+		<div class="row">
+			<div class="training-sidebar col-md-3">
+				<h5>Training Modules</h5>
+				<ul>
+					<% blog("training-modules").articles.each do |article| %>
+					<li>
+						<%= nav_link article.title, article.url %>
+					</li>
+					<% end  %>
+				</ul>
+			</div>
+			<div class="col-md-9">
+				<article>
+					<h1><%= current_article.data.title %></h1>
+				<%= yield %>
+			</div>
+	</div>
+</div>
+
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
+</div>
+
+<% end %>

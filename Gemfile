@@ -14,8 +14,4 @@ gem 'middleman-livereload'
 
 gem 'middleman-blog', '3.5.3'
 
-gem 'middleman-google_drive'
-
 gem 'bootstrap', "4.0.0.alpha2"
-
-gem "rubyXL", "3.3.15"

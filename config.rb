@@ -9,16 +9,10 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+page '/training/module/*.txt', layout: "training-module"
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
-
-activate :google_drive, load_sheets: {
-    mysheet: "1LFFtr-okW1FX5FJD2oPv6Rt7YvdnyHyPXShKsJSp2Vc",
-}
-
-data.mysheet['services'].each do |service|
-  proxy "/consulting/#{service['slug']}/index.html", "service.html", :locals => { :slug => service['slug'], :title => service['name'], :page_type => 'service', :service => service }
-end
 
 activate :blog do |blog|
   blog.name = "case-studies"
@@ -27,6 +21,26 @@ activate :blog do |blog|
 
   blog.sources = "{title}.html"
   blog.layout = "case_study"
+  blog.paginate = false
+end
+
+activate :blog do |blog|
+  blog.name = "consulting"
+  blog.prefix = "consulting"
+  blog.permalink = "/{title}.html"
+
+  blog.sources = "{title}.html"
+  blog.layout = "consulting-service"
+  blog.paginate = false
+end
+
+activate :blog do |blog|
+  blog.name = "training-modules"
+  blog.prefix = "training/"
+  blog.permalink = "/{title}.html"
+
+  blog.sources = "{title}.html"
+  blog.layout = "training-module"
   blog.paginate = false
 end
 

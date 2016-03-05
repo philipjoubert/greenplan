@@ -1,10 +1,20 @@
+<div id="case-studies-index">
+	<div class="container text-center m-y-lg">
+		<header>
+			<h1 class="text-uppercase">Contact US</h1>
+			<p>A catalog of resources on how to succeed with video marketing.</p>
+		</header>
+	</div>
+</div>
+
 <div class="container">
 	<div>
 		Email <%= link_to "info@greenplan.co.za", "mailto: info@greenplan.co.za" %>
 	</div>
 	<div>
-	Tel 
-	<tel>+27 (0) 21 880 2925</tel>
+	<div>
+		<strong>Tel</strong><br>
+		<tel>+27 (0) 21 880 2925</tel>
 	</div>
 	<div>
 		Fax +27 (0) 21 887 9031
@@ -25,3 +35,10 @@
 		South Africa
 	</address>
 </div>
+</div>
+
+<div class="google-map" id="map"></div>
+
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+
+<%= partial "partials/google_maps" %>

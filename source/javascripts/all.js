@@ -1,3 +1,8 @@
 //=require jquery-2.2.0.min.js
-//=require socialite.js
 
+$(function() {
+	$(".navbar-toggler").on("click", function() {
+	  console.log("test");
+	  $("#exCollapsingNavbar").toggleClass("collapse");
+	})
+});
