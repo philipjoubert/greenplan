@@ -21,8 +21,11 @@ Start the middleman server
 
 Most of the files you want to modify are in the **source** folder. Don't make the mistake of editing files in the *build* folder.
 
+####SourceTree
+I use a program called [SourceTree](https://www.sourcetreeapp.com/) to manage repositories. There are alternatives but I'd recommend you stick with SourceTree. It also helps that it's free.
+
 ####Text Editor
-The best text editor is probably [Sublime Text](https://www.sublimetext.com/).
+The best text editor is probably [Sublime Text](https://www.sublimetext.com/). The only problem is that Sublime costs $60. A free alternative is [https://atom.io/](https://atom.io/), and it's possibly as good as Sublime. 
 
 1. Install Sublime Text
 2. Install [Package Control](https://packagecontrol.io/installation)
