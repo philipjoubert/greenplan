@@ -19,6 +19,8 @@ Start the middleman server
 
     bundle exec middleman s
 
+Most of the files you want to modify are in the **source** folder. Don't make the mistake of editing files in the *build* folder.
+
 ####Text Editor
 The best text editor is probably [Sublime Text](https://www.sublimetext.com/).
 
@@ -36,7 +38,7 @@ To create a new build of the website run:
 
     bundle exec middleman build
 
-This added the HTML/CSS files in the **build** folder. Static resources like powerpoint presentations are not automatically added to the build folder, and have to be manually copied. 
+This adds the HTML/CSS files in the **build** folder. Static resources like powerpoint presentations are not automatically added to the build folder, and have to be manually copied. 
 
 The site is hosted on [Netlify](https://www.netlify.com/).
 
@@ -66,13 +68,45 @@ Images for case studies are organized in folders as follows:
     
     images/case-studies/[case-study-name]
 
+###Training courses
+The data for upcoming training courses is stored in 
+
+    data/training.json
+
+The format of .json files is extremely import. The most common mistake to make is adding an extra comma or leaving a comma out.
+
+    {
+      "courses": [
+            {
+                "date": "18 April",
+                "location" : "Stellenbosch",
+                "title" : "DesignBuilder Modeller",
+                "description" : "The first course is the introduction to the DesignBuilder interface, with a focus on model input information and drawing models."
+            },
+            {
+                "date" : "19 April",
+                "location" : "Stellenbosch",
+                "title" : "DesignBuilder Simulation",
+                "description" : "The focus of this course is on running simulations and extracting data from DesignBuilder."
+            },
+            {
+                "date": "20 April",
+                "location": "Stellenbosch",
+                "title": "Using DesignBuilder for SANS 10400 XA",
+                "description": "This course shows how DesignBuilder is easily used to comply with the SANS 10400 XA building regulation by following the building energy modelling route."
+            }
+        ]
+    }
+
+
 ###Consulting services
 Consulting services are located in
     
     source/consulting
 
-
 ###Markdown
+
+**Note:** You can't add markdown inside HTML tags
 
 Quotes
 
@@ -90,3 +124,30 @@ Images
 
 ####Tables
 Tables are built using standard HTML tables. Use the existing tables are references
+
+**Note:** Tables in HTML are built row by row
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Description</th>
+            <th>Visual light transmittance</th>
+            <th>Solar Heat Gain Coefficient</th>
+            <th>U-value</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Single</td>
+                <td>0.88</td>
+                <td>0.82</td>
+                <td>5.8</td>
+            </tr>
+            <tr>
+                <td>Single</td>
+                <td>0.81</td>
+                <td>0.59</td>
+                <td>4.23</td>
+            </tr>
+        </tbody>
+    </table>
