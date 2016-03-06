@@ -12,7 +12,7 @@ module CustomHelpers
 
   def case_study_image(article)
     image_url = article.metadata[:page]['image']
-    image_url = "images/case-studies/" + image_url
+    image_url = "/images/case-studies/" + image_url
     return image_url
   end
 

@@ -17,3 +17,17 @@ a.nav-link {
 	text-transform: uppercase;
 }
 
+@include media-breakpoint-down(sm) {
+	.navbar-nav {
+		display: block;
+		float: none !important;
+		clear: both;
+	}
+	.navbar-nav .nav-item {
+		display: block;
+		float: none;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+}

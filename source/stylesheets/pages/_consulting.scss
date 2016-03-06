@@ -26,3 +26,19 @@
 .intro-paragraph {
 	font-weight: 600;
 }
+
+@include media-breakpoint-up(md) {
+	.service {
+		min-height: 280px;
+	}
+}
+@include media-breakpoint-up(lg) {
+	.service {
+		min-height: 220px;
+	}
+}
+@include media-breakpoint-up(xl) {
+	.service {
+		min-height: 190px;
+	}
+}
