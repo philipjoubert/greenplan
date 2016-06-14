@@ -47,7 +47,7 @@ title: Training
 					<td><%= course.date %></td>
 					<td><%= course.location %></td>
 					<td>
-						<h5><%= course.title %></h5>
+						<h5><%= link_to course.title, course.link %></h5>
 						<p>
 							<%= course.description %>
 						</p>
