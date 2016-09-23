@@ -1,0 +1,48 @@
+<% wrap_layout :layout do %>
+
+<div class="hero hero-md" id="hero-design-builder">
+  <div class="hero-content">
+    <div class="vertical-center">
+      <div class="inner">
+        <h1>
+          DesignBuilder
+          <small class="secondary">
+            Building Performance Analysis Software
+          </small>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+<%= partial "partials/design_builder_nav" %>
+
+<div class="training-module">
+	<div class="container">
+		<div class="row">
+			<div class="sidebar-navigation col-md-3">
+				<h5>Sections</h5>
+				<ul>
+					<li>
+						<%= nav_link "FAQ", "#faq" %>
+					</li>
+					<li>
+						<%= nav_link "Hardware Requirements", "#hardware-requirements" %>
+					</li>
+					<li>
+						<%= nav_link "Downloads", "#downloads" %>
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-9">
+				<article>
+					<%= yield %>
+				</article>
+			</div>
+	</div>
+</div>
+
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
+</div>
+
+<% end %>
