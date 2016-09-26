@@ -1,66 +1,35 @@
 ---
-date: 2016-09-23
+date: 2016-05-10
 title: DesignBuilder Support
 ---
 
-
 #DesignBuilder Support
 
-###Advice on which package is for you!
+###Solutions to the most common queries!
 
-DesignBuilder is structured as a completely modular solution,  comprises a core 3-D modeller and 9 modules which work together to provide in-depth analysis of energy use, consumption and commitment for any building.  Every module fully integrates with its counterparts, so you can pick individual modules or choose one of our packages
+DesignBuilder provides a powerful interface to the EnergyPlus building analysis tool, which allows users to design and analyse all aspects of a building including energy consumption, daylighting, HVAC, airflow and thermal comfort.
+Navigating through the interface and translating the occational error codes could be daunting at times. Here we try to answer most of the common questions relating to the DesignBuilder interface.
 
+###General
+* **How can I find out more about the DesignBuilder software and prices?** <br />
+  Contact **Greenplan Consultants** to obtain the latest DeisgnBuilder prices.
 
-####FAQ
-For Architects - if you’re designing a renovation or new build project, DesignBuilder is perfect for early design stage simulations.
+###Licensing
+* **What is the difference between the a network license and module seats?** <br />
+  A network license is used on a single computer in an organisation and manages the license seats for each module.
+  The module seats are the number of seats or persons that can use that module simultaneously
+* **I bought a new computer, how do I move my existing DesignBuilder license to the new computer?** <br />
+  First you need to deactivate your license from the current computer before you uninstall the software.
+  After you have completed this step, you can install DesignBuilder on the new computer and reactivate the license.
 
-For Engineers - minimise the ‘energy gap’ for your clients with DesignBuilder’s advanced modelling.
+###Modelling
+* **Where can I find help on how to model in DesignBuilder** <br />
+  Please consult the relevant DesignBuilder help manual available from within DesignBuilder.
+* **What do I need to do 
 
-For academic institutions - around the world use DesignBuilder for teaching since it's easy to learn and research since it's so powerful.
-
-####Modules
-
-* **3-D Modeller**	- The core module, our efficient 3-D building modeller.
-* **Visualisation**	- Visualisation: Stunning rendered images and site shading analysis.
-* **Simulation**	- EnergyPlus simulations for energy and comfort analyses.
-* **Daylighting**	- Reports daylight factors and illuminance using Radiance.
-* **HVAC** - A powerful and flexible interface to EnergyPlus HVAC.
-* **Cost**	- Early stage building cost estimation.
-* **LEED** - LEED EAp2 and ASHRAE 90.1 calculations.
-* **Optimisation**	- Multi-criteria optimisation to help meet design goals.
-* **CFD**	- Computational Fluid Dynamics calculates distribution of air properties in and around buildings.
-
-
-###Hardware requirements
-
-DesignBuilder is a professional graphics application and requires a high standard of computer hardware for successful use.  This page contains information on the minimum system requirements and also the recommended specification. The main areas you should pay attention to if you are buying or upgrading your computer system to run DesignBuilder are:
-
-Graphics adapter - a good 100% OpenGL compatible graphics adapter is required to run DesignBuilder. Most of the NVIDIA cards we have tested work well.  Some graphics adapters integrated with the motherboard are unable to run DesignBuilder as are some ATI graphics cards.
-
-* Memory - DesignBuilder will use all the memory you can throw at it - at least 4 GB is recommended for serious modelling.
-* CPU speed - get as fast as you can afford.
-* Cores - having more than one processor core does not necessarily speed up simulations in DesignBuilder but it does allow you to continue using your computer while simulations are running. Multi core processors also make the software more responsive in use.
-
-####Windows environment:
-
-* Microsoft Windows 7 or better
-* 2.4 GHz dual core processor (or faster).
-* 2GB (or more) RAM
-* 5GB free disk space
-* Pointing device
-* 100% OpenGL compatible 3D graphics adapter with hardware acceleration running in 32-bit colour mode
-* 1280x1024 pixels or larger screens for efficiency during the modelling process and for displaying high-quality visualisation images and walk-throughs of DesignBuilder models and CFD results. DesignBuilder works well with wide screens.
-
-####Mac environment:
-
-DesignBuilder has been developed using a Windows-specific software development system and there is no immediate prospect of the software running natively under the Mac operating system.
-However the latest Mac computers do support 2 alternative approaches to running Windows software:
-
-* Boot Camp where Intel-based Mac computers can be booted using either the Mac or Windows operating systems. This is the recommended approach to use if possible as it runs faster and more reliably than...
-* Virtual machines such as Parallels. You can find more about users experience with these systems on this [forum post](http://www.designbuilder.co.uk/component/option,com_forum/Itemid,25/page,viewtopic/t,671/).
-
-###Downloads
-
-* [DesignBuilder v3 30 day free trial](http://www.designbuilder.co.uk/component/option,com_docman/task,cat_view/gid,11/Itemid,30/)
-* [SANS 10400-XA Modelling Guide](/resources/sans-10400_XA Modelling_Helderberg_Feb2013.pdf)
-* [SANS 10400-XA Weather Data](/resources/sans-10400-XA-weather-data.zip)
+###Troubleshooting
+* **I want to run a simulation of a building I built, but keep receiving the following error: Abnormal EnergyPlus termination. Please contact DB support** <br />
+  This error is caused by small calulations errors during the transcription of the model into the EnergyPlus environment.The primary causes for this error include: <br />
+  * Holes in the floors which do not corresponding with the hole in the ceiling below.
+  * Windows that are too close to facade edges and risk exceeding the usable area.
+  * Component blocks that interfere with each other or building blocks.
