@@ -7,34 +7,77 @@ title: DesignBuilder Support
 
 ###Solutions to the most common queries!
 
-DesignBuilder provides a powerful interface to the EnergyPlus building analysis tool, which allows users to design and analyse all aspects of a building including energy consumption, daylighting, HVAC, airflow and thermal comfort.
-Navigating through the interface and translating the occational error codes could be daunting at times. Here we try to answer most of the common questions relating to the DesignBuilder interface.
+DesignBuilder provides a powerful interface to the EnergyPlus building analysis tool, which allows users to design and analyze all aspects of a building including energy consumption, daylighting, HVAC, airflow and thermal comfort.
+Navigating through the interface and translating the occasional error codes could be daunting at times. Here we try to answer most of the common questions relating to the DesignBuilder interface.
 
 ###General
 * **How can I find out more about the DesignBuilder software and prices?** <br />
-  Contact **Greenplan Consultants** to obtain the latest DeisgnBuilder prices.
+  Contact **[Greenplan Consultants](http://www.greenplan.co.za/contact)** to obtain the latest DesignBuilder prices.
+
+* **Where can I find information regarding technical issues of DesignBuilder?** <br />
+  For a list of the most common found issues in DesignBuilder, please consult the **[Knowledgebase](http://support.designbuilder.co.uk/index.php?/Knowledgebase/List)** page on the DesignBuilder UK website.
 
 ###Licensing
 * **What is the difference between the a network license and module seats?** <br />
-  A network license is used on a single computer in an organisation and manages the license seats for each module.
-  The module seats are the number of seats or persons that can use that module simultaneously
-* **I bought a new computer, how do I move my existing DesignBuilder license to the new computer?** <br />
+  A network license is used on a single computer, usually a server, in an organization and manages the license seats for each module.
+  The module seats are the number of seats or persons that can use that module simultaneously, each on his own computer.
+* **How do I move an existing DesignBuilder license from an old to a new computer?** <br />
   First you need to deactivate your license from the current computer before you uninstall the software.
   After you have completed this step, you can install DesignBuilder on the new computer and reactivate the license.
+* **How do I deactivate my license in version 4?** <br />
+  Note: Remote license deactivation is not available for DesignBuilder v.4!
+
+  DesignBuilder v.4 license deactivation can only be executed from within DesignBuilder’s License Manager dialog (Help->License) by selecting the activation code to be deactivated on the ‘Activation Code’ tab and pressing the ‘Deactivate’ button.
+
+  If the code is not displayed, then the ‘Reset’ button should be used instead. An internet connection is required during the deactivation and activation process.
+
+  Uninstalling DesignBuilder will not automatically deactivate the license from the machine.
+
+  If you have uninstalled DesignBuilder but need to release the activation code so it can be used on another machine, then you should first reinstall DesignBuilder v.4 on the machine and follow the deactivation process described above.<br />
 
 ###Modelling
 * **Where can I find help on how to model in DesignBuilder** <br />
-  Please consult the relevant DesignBuilder help manual available from within DesignBuilder.
+The **[DesignBuilder U.K. website](http://www.designbuilder.co.uk/training/online-learning)** has many online videos and tutorials available showing you how to do most of the things you need for creating models. Please consult the relevant section of the DesignBuilder help manual available from within your DesignBuilder software.<br />
 * **What do I need to do SANS 10400-XA rational assessment/design?** <br />
+  In order to be capable of performing and signing-off SANS 10400-XA assessments, you will require:
   * A copy of the SANS 10400 standard
   * A copy of the SANS 204 standard
-  * Preferably attend a course in useing the software package you choose to use.
-
-
+  * Attendance of an approved SANS 10400-XA training course
+  * Preferably attend a course in using the software package you choose to use.
 
 ###Troubleshooting
-* **I want to run a simulation of a building I built, but keep receiving the following error: Abnormal EnergyPlus termination. Please contact DB support** <br />
-  This error is caused by small calulations errors during the transcription of the model into the EnergyPlus environment. The primary causes for this error include: <br />
-  * Holes in the floors which do not corresponding with the hole in the ceiling below.
-  * Windows that are too close to facade edges and risk exceeding the usable area.
+* **Abnormal Termination error.** <br />
+
+  *"Abnormal EnergyPlus termination. Please contact DB support"*
+
+  This error is usually caused by small calculations errors during the transcription of the model into the EnergyPlus environment. The primary causes for this error include:
+
+  * Holes in the floors which do not line up precisely with the corresponding hole in the ceiling below.
+  * Windows that are too close to facade edges and risk exceeding the usable surface area.
   * Component blocks that interfere with each other or building blocks.
+
+* **File Corruption** <br />
+  Some DesignBuilder users have reported problems with dsb files becoming corrupted. You may see a message like:
+
+  *"Error loading file <br/>
+  Filename <br />
+  This could be caused by trying to read a file created in a more recent version of the software or because the file is corrupt. If you think the file is corrupt you should be able to find incremental backups in the DesignBuilder Data\Backup folder."*
+
+  There are various possible reasons for this:
+
+  * **Dropbox (or similar cloud file sharing system) folders which can lock files for synching for storage on cloud servers.** <br />
+    If you try to work on Dropbox or OneDrive folders your data will eventually become corrupted as DesignBuilder tries and fails to save to a locked file.<br/>
+
+  * **Removable data sticks.** <br />
+    Removing data sticks (flashdrives) from the computer while a write operation is still in progress can cause files to be corrupted.
+
+  * **Opening or saving the dsb file over a network.** <br />
+    This operation is not supported by DesignBuilder and corruption problems are far more likely due to possible network errors so you should always load and save to the local disk drive.
+
+  * **Error in file compression.** <br />
+    This can be checked for by opening the dsb file in WinZip, WinRAR or other compression/decompression software. If it opens OK then this is not the cause. Problems with compression may be caused by conflicts with other software installed on the system. If this is the cause then you can work with the skh (uncompressed) format.
+
+  * **Bugs in some versions of the software can cause problems opening dsb files.** <br />
+    It may be worth trying a later version of the software to see if it can read a corrupt file.
+
+  If, having followed the above advise, you are still unable to open a file you could try sending it to **[DesignBuilder Support Desk](http://support.designbuilder.co.uk/)** to see if developers are able to recover it.
