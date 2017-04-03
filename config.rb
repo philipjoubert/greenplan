@@ -10,7 +10,6 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 page '/training/module/*.txt', layout: "training-module"
-
 page '/designbuilder/resource*', layout: "resources"
 page '/designbuilder/support*', layout: "support"
 
