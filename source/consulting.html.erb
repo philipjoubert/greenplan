@@ -7,7 +7,7 @@ title: Consulting Services
     <div class="vertical-center">
       <div class="inner">
         <h1>
-          Consulting 
+          Consulting
         </h1>
       </div>
     </div>
@@ -27,8 +27,10 @@ title: Consulting Services
 		<div class="row">
 			<% blog("consulting").articles.each do |service| %>
 				<div class="service-block col-lg-4 col-md-4 m-b-md">
-					<% link_to service, class: "service" do %>
-						<h4><%= service.title %></h4>
+          <% link_to service, class: "service" do %>
+            <div class="image" style="background-image: url(<%= (service) %>)">
+            </div>
+            <h4><%= service.title %></h4>
 						<p>
 							<%= service.metadata[:page]['description'] %>
 						</p>
@@ -39,4 +41,6 @@ title: Consulting Services
 	</div>
 </div>
 
-<%= partial "partials/cta" %>
+<div class="m-t-lg">
+	<%= partial "partials/cta" %>
+</div>
