@@ -28,7 +28,7 @@ title: Consulting Services
 			<% blog("consulting").articles.each do |service| %>
 				<div class="service-block col-lg-4 col-md-4 m-b-md">
           <% link_to service, class: "service" do %>
-            <div class="image" style="background-image: url(<%= (service) %>)">
+            <div class="image" style="background-image: url(<%= case_study_image(service) %>)">
             </div>
             <h4><%= service.title %></h4>
 						<p>
