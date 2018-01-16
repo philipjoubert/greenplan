@@ -2,14 +2,14 @@
   "courses": [
 		{
 			"date": "TBA",
-			"location" : "Pretoria",
+			"location" : "Western Cape",
 			"title" : "DesignBuilder Modeller",
 			"description" : "The first course is the introduction to the DesignBuilder interface, with a focus on model input information and drawing models.",
       "link": "/training/3d-modeling"
 		},
 		{
 			"date" : "TBA",
-			"location" : "Pretoria",
+			"location" : "Western Cape",
 			"title" : "DesignBuilder Simulation",
 			"description" : "The focus of this course is on running simulations and extracting data from DesignBuilder.",
       "link": "/training/simulation"
@@ -17,7 +17,7 @@
 		},
 		{
 			"date": "TBA",
-			"location": "Pretoria",
+			"location": "Western Cape",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This course shows how DesignBuilder is easily used to comply with the SANS 10400 XA building regulation by following the building energy modelling route.",
       "link": "/training/sans-10400-xa"
@@ -25,7 +25,7 @@
 		},
 		{
 			"date": "TBA",
-			"location": "Pretoria",
+			"location": "Western Cape",
 			"title": "DesignBuilder HVAC",
 			"description" : "This course shows how DesignBuilder is used to model modern HVAC systems down to component detail.",
       "link": "/training/hvac"
@@ -33,7 +33,7 @@
 		},
 		{
 			"date": "TBA",
-			"location": "Pretoria",
+			"location": "Western Cape",
 			"title": "DesignBuilder Advanced Modules",
 			"description" : "The Advanced DesignBuilder training looks at other powerful modules and calculation functionality within the software. The course is structured in such a way that the two most popular topics will be covered. (1) CFD module (2) Daylighting module (3) Natural Ventilation Simulation (4) Optimisation module (5)Thermal Comfort.",
       "link": "/training/cfd"
