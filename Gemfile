@@ -20,13 +20,13 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 
 # Middleman Gems
 
-gem 'middleman', '3.4.1'
+gem 'middleman', '~> 3.4.1'
 
 gem 'middleman-livereload'
 
 
-gem 'middleman-blog', '3.5.3'
+gem 'middleman-blog'
 
-
-gem 'bootstrap'
+gem 'sass', '~> 3.4.22'
+gem 'bootstrap', '~> 4.0.0.alpha3'
 gem 'rb-inotify', :require => false
