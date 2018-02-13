@@ -25,8 +25,8 @@ gem 'middleman', '~> 3.4.1'
 gem 'middleman-livereload'
 
 
-gem 'middleman-blog'
+gem 'middleman-blog', '3.5.3'
 
-gem 'sass', '~> 3.4.22'
-gem 'bootstrap', '~> 4.0.0.alpha3'
+
+gem 'bootstrap'
 gem 'rb-inotify', :require => false
