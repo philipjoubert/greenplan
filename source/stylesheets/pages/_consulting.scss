@@ -27,16 +27,16 @@
 
 @include media-breakpoint-up(md) {
 	.service {
-		min-height: 280px;
+		min-height: 200px;
 	}
 }
 @include media-breakpoint-up(lg) {
 	.service {
-		min-height: 220px;
+		min-height: 200px;
 	}
 }
 @include media-breakpoint-up(xl) {
 	.service {
-		min-height: 190px;
+		min-height: 200px;
 	}
 }
