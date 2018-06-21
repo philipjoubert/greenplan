@@ -1,0 +1,109 @@
+{
+  "single": [
+		{
+			"package": "Architectural Essentials",
+			"annual" : "R 15 390.00",
+			"perpetual" : "R 24 620.00"
+		},
+		{
+            "package": "Architectural Plus",
+			"annual" : "R 21 540.00",
+			"perpetual" : "R 41 560.00"
+		},
+		{
+            "package": "Engineering Essentials",
+            "annual" : "R 21 540.00",
+			"perpetual" : "R 41 560.00"
+		},
+		{
+            "package": "Engineering Plus",
+			"annual" : "R 32 320.00",
+			"perpetual" : "R 56 950.00"
+		},
+		{
+            "package": "Engineering Pro",
+            "annual" : "R 49 260.00",
+            "perpetual" : "R 84 670.00"
+    	}
+	],
+
+  "network": [
+		{
+			"module": "Site Network Licence (required)",
+			"annual" : "R 32 720.00",
+			"perpetual" : "R 43 630.00"
+		},
+		{
+      "module": "Simulation (required)",
+			"annual" : "R 3 110.00",
+			"perpetual" : "R 6 220.00"
+		},
+		{
+            "module": "Visualisation",
+            "annual" : "R 1 550.00",
+			"perpetual" : "R 2 640.00"
+		},
+		{
+            "module": "Daylighting",
+			"annual" : "R 2 640.00",
+			"perpetual" : "R 4 670.00"
+		},
+		{
+            "module": "Cost",
+            "annual" : "R 2 640.00",
+            "perpetual" : "R 4 670.00"
+    	},
+        {
+            "module": "HVAC",
+            "annual" : "R 2 640.00",
+            "perpetual" : "R 4 670.00"
+    	},
+        {
+            "module": "Optimisation",
+            "annual" : "R 3 110.00",
+            "perpetual" : "R 6 220.00"
+        },
+        {
+            "module": "CFD",
+            "annual" : "R 10 900.00",
+            "perpetual" : "R 18 690.00"
+        },
+        {
+            "module": "LEED",
+            "annual" : "R 2 640.00",
+            "perpetual" : "R 4 670.00"
+    	},
+        {
+            "module": "EMS (new in DB v.5)",
+            "annual" : "R 2 640.00",
+            "perpetual" : "R 4 670.00"
+    	}
+	],
+    "discount": [
+        {
+            "type": "Early renewal",
+            "percentage" : "10%",
+            "requirements" : "Applicable to persons renewing their annual licence before it expires"
+        },
+        {
+            "type": "Upgrade (previous)",
+            "percentage" : "20%",
+            "requirements" : "Applicable to persons upgrading from DesignBuilder v.3 or earlier to v.5"
+        },
+        {
+            "type": "Upgrade",
+            "percentage" : "40%",
+            "requirements" : "Applicable to persons upgrading from DesignBuilder v.4 to v.5"
+        },
+        {
+  			"type": "Academic",
+  			"percentage" : "50%",
+  			"requirements" : "Proof from University that licences will be used for academic purposes only"
+  		},
+        {
+  			"type": "Student",
+  			"percentage" : "90%",
+  			"requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on student's personal computer (not institution computers)."
+  		}
+  	]
+}

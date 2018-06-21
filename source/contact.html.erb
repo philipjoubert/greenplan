@@ -40,8 +40,8 @@ title: Contact
 				</div>
 				<time>
 				By appointment only<br>
-				Mon-Thu: 8:00-17:00<br>
-				Friday: 8:00-16:00<br>
+				Mon-Thu: 08:00-17:00<br>
+				Friday: 08:00-16:00<br>
 				Public holidays: Closed<br>
 				</time>
 			</div>
@@ -50,7 +50,32 @@ title: Contact
 				<div class="text-green">
 					Email
 				</div>
-				<%= link_to "info@greenplan.co.za", "mailto: info@greenplan.co.za" %>
+
+				<script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "TFDC@0oqqF6GLF.QC.bL"
+  key = "nwl76gzvAotT4OD8maMcFIGRE0bePCxkdXZKuLhQJ3U1ySpqj5srHiN2fVBYW9"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>")
+}
+//-->
+</script>
+<noscript>Please enable Javascript in your browser.</noscript>
 			</div>
 
 			<div class="m-b">
