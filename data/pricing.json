@@ -103,7 +103,7 @@
         {
   			"type": "Student",
   			"percentage" : "90%",
-  			"requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on student's personal computer (not institution computers)."
+  			"requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on a student's personal computer."
   		}
   	]
 }
