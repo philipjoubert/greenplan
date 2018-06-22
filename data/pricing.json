@@ -2,81 +2,81 @@
   "single": [
 		{
 			"package": "Architectural Essentials",
-			"annual" : "R 15 390.00",
-			"perpetual" : "R 24 620.00"
+			"annual" : "R 15 390",
+			"perpetual" : "R 24 620"
 		},
 		{
             "package": "Architectural Plus",
-			"annual" : "R 21 540.00",
-			"perpetual" : "R 41 560.00"
+			"annual" : "R 21 540",
+			"perpetual" : "R 41 560"
 		},
 		{
             "package": "Engineering Essentials",
-            "annual" : "R 21 540.00",
-			"perpetual" : "R 41 560.00"
+            "annual" : "R 21 540",
+			"perpetual" : "R 41 560"
 		},
 		{
             "package": "Engineering Plus",
-			"annual" : "R 32 320.00",
-			"perpetual" : "R 56 950.00"
+			"annual" : "R 32 320",
+			"perpetual" : "R 56 950"
 		},
 		{
             "package": "Engineering Pro",
-            "annual" : "R 49 260.00",
-            "perpetual" : "R 84 670.00"
+            "annual" : "R 49 260",
+            "perpetual" : "R 84 670"
     	}
 	],
 
   "network": [
 		{
 			"module": "Site Network Licence (required)",
-			"annual" : "R 32 720.00",
-			"perpetual" : "R 43 630.00"
+			"annual" : "R 32 720",
+			"perpetual" : "R 43 630"
 		},
 		{
       "module": "Simulation (required)",
-			"annual" : "R 3 110.00",
-			"perpetual" : "R 6 220.00"
+			"annual" : "R 3 110",
+			"perpetual" : "R 6 220"
 		},
 		{
             "module": "Visualisation",
-            "annual" : "R 1 550.00",
-			"perpetual" : "R 2 640.00"
+            "annual" : "R 1 550",
+			"perpetual" : "R 2 640"
 		},
 		{
             "module": "Daylighting",
-			"annual" : "R 2 640.00",
-			"perpetual" : "R 4 670.00"
+			"annual" : "R 2 640",
+			"perpetual" : "R 4 670"
 		},
 		{
             "module": "Cost",
-            "annual" : "R 2 640.00",
-            "perpetual" : "R 4 670.00"
+            "annual" : "R 2 640",
+            "perpetual" : "R 4 670"
     	},
         {
             "module": "HVAC",
-            "annual" : "R 2 640.00",
-            "perpetual" : "R 4 670.00"
+            "annual" : "R 2 640",
+            "perpetual" : "R 4 670"
     	},
         {
             "module": "Optimisation",
-            "annual" : "R 3 110.00",
-            "perpetual" : "R 6 220.00"
+            "annual" : "R 3 110",
+            "perpetual" : "R 6 220"
         },
         {
             "module": "CFD",
-            "annual" : "R 10 900.00",
-            "perpetual" : "R 18 690.00"
+            "annual" : "R 10 900",
+            "perpetual" : "R 18 690"
         },
         {
             "module": "LEED",
-            "annual" : "R 2 640.00",
-            "perpetual" : "R 4 670.00"
+            "annual" : "R 2 640",
+            "perpetual" : "R 4 670"
     	},
         {
             "module": "EMS (new in DB v.5)",
-            "annual" : "R 2 640.00",
-            "perpetual" : "R 4 670.00"
+            "annual" : "R 2 640",
+            "perpetual" : "R 4 670"
     	}
 	],
     "discount": [
