@@ -1,85 +1,4 @@
-{
-  "single": [
-		{
-			"package": "Architectural Essentials",
-			"annual" : "R 15 390",
-			"perpetual" : "R 24 620"
-		},
-		{
-            "package": "Architectural Plus",
-			"annual" : "R 21 540",
-			"perpetual" : "R 41 560"
-		},
-		{
-            "package": "Engineering Essentials",
-            "annual" : "R 21 540",
-			"perpetual" : "R 41 560"
-		},
-		{
-            "package": "Engineering Plus",
-			"annual" : "R 32 320",
-			"perpetual" : "R 56 950"
-		},
-		{
-            "package": "Engineering Pro",
-            "annual" : "R 49 260",
-            "perpetual" : "R 84 670"
-    	}
-	],
-
-  "network": [
-		{
-			"module": "Site Network Licence (required)",
-			"annual" : "R 32 720",
-			"perpetual" : "R 43 630"
-		},
-		{
-      "module": "Simulation (required)",
-			"annual" : "R 3 110",
-			"perpetual" : "R 6 220"
-		},
-		{
-            "module": "Visualisation",
-            "annual" : "R 1 550",
-			"perpetual" : "R 2 640"
-		},
-		{
-            "module": "Daylighting",
-			"annual" : "R 2 640",
-			"perpetual" : "R 4 670"
-		},
-		{
-            "module": "Cost",
-            "annual" : "R 2 640",
-            "perpetual" : "R 4 670"
-    	},
-        {
-            "module": "HVAC",
-            "annual" : "R 2 640",
-            "perpetual" : "R 4 670"
-    	},
-        {
-            "module": "Optimisation",
-            "annual" : "R 3 110",
-            "perpetual" : "R 6 220"
-        },
-        {
-            "module": "CFD",
-            "annual" : "R 10 900",
-            "perpetual" : "R 18 690"
-        },
-        {
-            "module": "LEED",
-            "annual" : "R 2 640",
-            "perpetual" : "R 4 670"
-    	},
-        {
-            "module": "EMS (new in DB v.5)",
-            "annual" : "R 2 640",
-            "perpetual" : "R 4 670"
-    	}
-	],
-    "discount": [
+{"single": [{"package": "Architectural Essentials","annual" :  "R 15 920", "perpetual": "R 25 480"},{"package": "Architectural Plus ","annual" :  "R 22 290", "perpetual": "R 43 010"},{"package": "Engineering Essentials","annual" :  "R 22 290", "perpetual": "R 43 010"},{"package": "Engineering Plus","annual" :  "R 33 450", "perpetual": "R 58 940"},{"package": "Engineering Pro","annual" :  "R 50 970", "perpetual": "R 87 620"},1],"network": [{"package": "Site Network Licence (required)","annual" :  "R 33 450", "perpetual": "R 44 600"},{"package": "Simulation (required)","annual" :  "R 3 180", "perpetual": "R 6 360"},{"package": "Visualization","annual" :  "R 1 580", "perpetual": "R 2 700"},{"package": "Daylighting","annual" :  "R 2 700", "perpetual": "R 4 770"},{"package": "Cost","annual" :  "R 2 700", "perpetual": "R 4 770"},{"package": "HVAC","annual" :  "R 2 700", "perpetual": "R 4 770"},{"package": "Optimisation","annual" :  "R 3 180", "perpetual": "R 6 360"},{"package": "CFD ","annual" :  "R 11 140", "perpetual": "R 19 110"},{"package": "LEED","annual" :  "R 2 700", "perpetual": "R 4 770"},{"package": "EMS (new in DB v.5)","annual" :  "R 2 700", "perpetual": "R 4 770"},1],"discount": [
         {
             "type": "Early renewal",
             "percentage" : "10%",
@@ -96,14 +15,13 @@
             "requirements" : "Applicable to persons upgrading from DesignBuilder v.4 to v.5"
         },
         {
-  			"type": "Academic",
-  			"percentage" : "50%",
-  			"requirements" : "Proof from University that licences will be used for academic purposes only"
-  		},
+     "type": "Academic",
+     "percentage" : "50%",
+     "requirements" : "Proof from University that licences will be used for academic purposes only"
+    },
         {
-  			"type": "Student",
-  			"percentage" : "90%",
-  			"requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on a student's personal computer."
-  		}
-  	]
-}
+     "type": "Student",
+     "percentage" : "90%",
+     "requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on a student's personal computer."
+    }
+   ]}
