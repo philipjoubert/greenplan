@@ -7,12 +7,12 @@
         {
             "type": "Upgrade (previous)",
             "percentage" : "20%",
-            "requirements" : "Applicable to persons upgrading from DesignBuilder v.3 or earlier to v.5"
+            "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.3 or earlier to v.5"
         },
         {
             "type": "Upgrade",
             "percentage" : "40%",
-            "requirements" : "Applicable to persons upgrading from DesignBuilder v.4 to v.5"
+            "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.4 to v.5"
         },
         {
      "type": "Academic",
