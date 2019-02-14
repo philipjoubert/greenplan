@@ -3,9 +3,9 @@ module CustomHelpers
   # Formats the page <title>
   def page_title(title = nil)
     if title.nil?
-      "Greenplan Engineering Consultants"
+      "Greenplan Consultants"
     else
-      " #{title} | Greenplan Engineering Consultants"
+      " #{title} | Greenplan Consultants"
     end
   end
 
@@ -23,6 +23,3 @@ module CustomHelpers
   end
 
 end
-
-
-
