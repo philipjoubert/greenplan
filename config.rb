@@ -12,6 +12,9 @@ page '/*.txt', layout: false
 page '/training/module/*.txt', layout: "training-module"
 page '/designbuilder/resource*', layout: "resources"
 page '/designbuilder/support*', layout: "support"
+page '/designbuilder/options*', layout: "options"
+page '/designbuilder/pricing*', layout: "pricing"
+#page '/training*', layout: "courses"
 
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout

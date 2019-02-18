@@ -33,17 +33,18 @@ title: Pricing
     <article>
         <h2>Single User Licences</h2>
 		<p>
-			Single user licences allow the user to install DesignBuilder on a single machine.
+			Single user licences allow the user to install DesignBuilder on a single machine (and move it between machines). Both packages and individual modules are available.
     </p>
-    <P>
-      The prices shown below are indicative - please consult the <%= link_to "full price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V5_Prices.pdf", :target=>"_blank" %> for more details. Customers not resident in the Republic of South Africa should consult our <%= link_to "international price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V5_Prices_Intl.pdf", :target=>"_blank" %>.
+	    <P>
+      The prices shown below are indicative - please consult the <%= link_to "full price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices.pdf", :target=>"_blank" %> for more details. Customers not resident in the Republic of South Africa should consult our <%= link_to "international price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices_Intl.pdf", :target=>"_blank" %>.
 		</p>
+	<H3>Packages</H3>
 		<table class="table pricing-options">
 			<thead>
 				<tr>
 					<th>Package</th>
 					<th>Annual licence</th>
-					<th>Perpetual licence</th>
+					<th>Perpetual V. 6 licence</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -56,37 +57,67 @@ title: Pricing
 				<% end %>
 			</tbody>
 		</table>
-        <h2>Site & Seat (Network) Licences</h2>
-        <p>
-            A network licence allows a customer to install DesignBuilder licence server software on a single server machine. This machine then distributes module seat licences to the various computers on a shared network.
-        </p>
-        <p>
-            Pricing is "per seat" with the exception of the site network licence for the server. The prices shown below are indicative - please consult the <%= link_to "full price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V5_Prices.pdf", :target=>"_blank" %> for more details. Customers not resident in the Republic of South Africa should consult our <%= link_to "international price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V5_Prices_Intl.pdf", :target=>"_blank" %>.
-        </p>
-        <table class="table pricing-options">
+		Prices include VAT at 15 %.
+		<P>
+		<H3>Individual Modules</H3>
+		<table class="table pricing-options">
 			<thead>
 				<tr>
 					<th>Module</th>
 					<th>Annual licence</th>
-					<th>Perpetual licence</th>
+					<th>Perpetual V.6 licence</th>
 				</tr>
 			</thead>
 			<tbody>
-				<% data.pricing.network.each do |network| %>
+				<% data.pricing.singlemodule.each do |singlemodule| %>
 				<tr>
-					<td><h6><%= network.module %></h6></td>
-					<td><%= network.annual %></td>
-					<td><%= network.perpetual %></td>
+					<td><h6><%= singlemodule.module %></h6></td>
+					<td><%= singlemodule.annual %></td>
+					<td><%= singlemodule.perpetual %></td>
 				</tr>
 				<% end %>
 			</tbody>
 		</table>
+		Prices include VAT at 15 %.
+		<p>
+        <h2>Site & Seat (Network) Licences</h2>
+        <p>
+            A network licence allows a customer to install DesignBuilder licence server software on a single server machine. This machine then distributes module seat licences to the various computers on a shared network. Licencing of off-site machines is possible using VPN and similar technology, and is allowed by the licence agreement.
+        </p>
+        <p>
+            Pricing is "per seat" with the exception of the site network licence for the server. For further information and pricing, please contact our sales department - <script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "JKhIJ@bqIIdYhKd.jk.MK"
+  key = "0zJSCEDqOhPAK84VeWcFn5MTUQpwoL7vZNRg2I6jXdfs39yYrkl1taHGbxBimu"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"'>"+link+"</a>.")
+}
+//-->
+</script>
+<noscript>Please enable Javascript in your browser.</noscript>
+			</p>
+        </p>
 
         <h2>Annual vs Perpetual</h2>
-        <p>DesignBuilder is licensed to the user on either an annual or a perpetual basis.
+        <p>DesignBuilder (in all formats above) is licensed to the user on either an annual or a perpetual basis.
             <ul>
                 <li> Annual licences require renewal each year.  Users are eligible for all upgrades on the modules that they have purchased, for free.</li>
-                <li> A perpetual licence is paid for only once.  There is no additional or annual cost involved after the initial purchase.  The customer can download all upgrades within the same major release, for free. For instance, should you buy DesignBuilder V5.0, all subsequent V5.x upgrades of the modules you initially bought are available at no additional cost.</li>
+                <li> A perpetual licence is paid for only once.  There is no additional or annual cost involved after the initial purchase.  The customer can download all upgrades within the same major release, for free. For instance, should you buy DesignBuilder V6.0, all subsequent V6.x upgrades of the modules you initially bought are available at no additional cost.</li>
             </ul>
         </p>
 

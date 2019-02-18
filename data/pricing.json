@@ -1,18 +1,13 @@
-{"single": [{"package": "Architectural Essentials","annual" :  "R 15 500", "perpetual": "R 24 810"},{"package": "Architectural Plus ","annual" :  "R 21 710", "perpetual": "R 41 870"},{"package": "Engineering Essentials","annual" :  "R 21 710", "perpetual": "R 41 870"},{"package": "Engineering Plus","annual" :  "R 32 560", "perpetual": "R 57 380"},{"package": "Engineering Pro","annual" :  "R 49 630", "perpetual": "R 85 300"}],"network": [{"module": "Site Network Licence (required)","annual" :  "R 32 560", "perpetual": "R 43 420"},{"module": "Simulation (required)","annual" :  "R 3 090", "perpetual": "R 6 190"},{"module": "Visualisation","annual" :  "R 1 540", "perpetual": "R 2 630"},{"module": "Daylighting","annual" :  "R 2 630", "perpetual": "R 4 640"},{"module": "Cost","annual" :  "R 2 630", "perpetual": "R 4 640"},{"module": "HVAC","annual" :  "R 2 630", "perpetual": "R 4 640"},{"module": "Optimisation","annual" :  "R 3 090", "perpetual": "R 6 190"},{"module": "CFD ","annual" :  "R 10 850", "perpetual": "R 18 600"},{"module": "LEED","annual" :  "R 2 630", "perpetual": "R 4 640"},{"module": "Scripting (EMS, new in DB v.5)","annual" :  "R 2 630", "perpetual": "R 4 640"}],"discount": [
+{"single": [{"package": "Architectural Essentials","annual" :  "R 14 730", "perpetual": "R 26 360"},{"package": "Architectural Plus ","annual" :  "R 21 710", "perpetual": "R 43 420"},{"package": "Engineering Essentials","annual" :  "R 21 710", "perpetual": "R 43 420"},{"package": "Engineering Plus","annual" :  "R 31 010", "perpetual": "R 60 480"},{"package": "Engineering Pro","annual" :  "R 49 630", "perpetual": "R 88 400"}],"singlemodule": [{"module": "Simulation","annual" :  "R 10 850", "perpetual": "R 17 830"},{"module": "Visualisation","annual" :  "R 4 330", "perpetual": "R 6 660"},{"module": "Daylighting","annual" :  "R 8 520", "perpetual": "R 13 950"},{"module": "Cost","annual" :  "R 8 520", "perpetual": "R 13 950"},{"module": "HVAC","annual" :  "R 8 520", "perpetual": "R 13 950"},{"module": "Optimisation","annual" :  "R 10 850", "perpetual": "R 17 830"},{"module": "CFD","annual" :  "R 3 090", "perpetual": "R 6 190"},{"module": "LEED","annual" :  "R 8 520", "perpetual": "R 13 950"},{"module": "Scripting (EMS)","annual" :  "R 8 520", "perpetual": "R 13 950"}],"discount": [
         {
             "type": "Early renewal",
             "percentage" : "10%",
             "requirements" : "Applicable to customers renewing their annual licence before it expires"
         },
         {
-            "type": "Upgrade (previous)",
-            "percentage" : "20%",
-            "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.3 or earlier to v.5"
-        },
-        {
             "type": "Upgrade",
             "percentage" : "40%",
-            "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.4 to v.5"
+            "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.5 to v.6"
         },
         {
      "type": "Academic",
@@ -20,7 +15,7 @@
      "requirements" : "Proof from University that licences will be used for academic purposes only"
     },
         {
-     "type": "Student",
+     "type": "Student personal",
      "percentage" : "90%",
      "requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on a student's personal computer."
     }
