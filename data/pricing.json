@@ -1,4 +1,4 @@
-{"single": [{"package": "Architectural Essentials","annual" :  "R 15 540", "perpetual": "R 27 820"},{"package": "Architectural Plus ","annual" :  "R 22 910", "perpetual": "R 45 830"},{"package": "Engineering Essentials","annual" :  "R 22 910", "perpetual": "R 45 830"},{"package": "Engineering Plus","annual" :  "R 32 730", "perpetual": "R 63 840"},{"package": "Engineering Pro","annual" :  "R 52 380", "perpetual": "R 93 310"}],"singlemodule": [{"module": "Simulation","annual" :  "R 11 450", "perpetual": "R 18 820"},{"module": "Visualisation","annual" :  "R 4 570", "perpetual": "R 7 030"},{"module": "Daylighting","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Cost","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "HVAC","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Optimisation","annual" :  "R 11 450", "perpetual": "R 18 820"},{"module": "CFD","annual" :  "R 3 260", "perpetual": "R 6 540"},{"module": "LEED","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Scripting (EMS)","annual" :  "R 8 990", "perpetual": "R 14 720"}],"discount": [
+{"single": [{"package": "Architectural Essentials","annual" :  "R 15 540", "perpetual": "R 27 820"},{"package": "Architectural Plus ","annual" :  "R 22 910", "perpetual": "R 45 830"},{"package": "Engineering Essentials","annual" :  "R 22 910", "perpetual": "R 45 830"},{"package": "Engineering Plus","annual" :  "R 32 730", "perpetual": "R 63 840"},{"package": "Engineering Pro","annual" :  "R 52 380", "perpetual": "R 93 310"},{"package": "Engineering Pro (Student Personal Licence)","annual" :  "R 1 310", "perpetual": "R N/A"}],"singlemodule": [{"module": "Simulation","annual" :  "R 11 450", "perpetual": "R 18 820"},{"module": "Visualisation","annual" :  "R 4 570", "perpetual": "R 7 030"},{"module": "Daylighting","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Cost","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "HVAC","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Optimisation","annual" :  "R 11 450", "perpetual": "R 18 820"},{"module": "CFD","annual" :  "R 3 260", "perpetual": "R 6 540"},{"module": "LEED","annual" :  "R 8 990", "perpetual": "R 14 720"},{"module": "Scripting (EMS)","annual" :  "R 8 990", "perpetual": "R 14 720"}],"discount": [
         {
             "type": "Early renewal",
             "percentage" : "10%",
@@ -13,10 +13,5 @@
      "type": "Academic",
      "percentage" : "50%",
      "requirements" : "Proof from University that licences will be used for academic purposes only"
-    },
-        {
-     "type": "Student personal",
-     "percentage" : "90%",
-     "requirements" : "Certified proof of registration from University and declaration from lecturer that licences will be used for academic purposes only. The licence may only be installed on a student's personal computer."
     }
    ]}
