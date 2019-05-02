@@ -1,21 +1,21 @@
-{"single": [{"package": "Architectural Essentials","annual" :  "R 15 870", "perpetual": "R 28 400"},{"package": "Architectural Plus ","annual" :  "R 23 390", "perpetual": "R 46 790"},{"package": "Engineering Essentials","annual" :  "R 23 390", "perpetual": "R 46 790"},{"package": "Engineering Plus","annual" :  "R 33 410", "perpetual": "R 65 170"},{"package": "Engineering Pro","annual" :  "R 53 470", "perpetual": "R 95 250"},{"package": "Engineering Pro (Student Personal Licence only)","annual" :  "R 1 340", "perpetual": "R N/A"}],"singlemodule": [{"module": "Simulation","annual" :  "R 11 690", "perpetual": "R 19 210"},{"module": "Visualisation","annual" :  "R 4 670", "perpetual": "R 7 180"},{"module": "Daylighting","annual" :  "R 9 180", "perpetual": "R 15 030"},{"module": "Cost","annual" :  "R 9 180", "perpetual": "R 15 030"},{"module": "HVAC","annual" :  "R 9 180", "perpetual": "R 15 030"},{"module": "Optimisation","annual" :  "R 11 690", "perpetual": "R 19 210"},{"module": "CFD","annual" :  "R 3 330", "perpetual": "R 6 670"},{"module": "LEED","annual" :  "R 9 180", "perpetual": "R 15 030"},{"module": "Scripting (EMS)","annual" :  "R 9 180", "perpetual": "R 15 030"}],"discount": [
+{"single": [{"package": "Architectural Essentials","annual" :  "R 16 010", "perpetual": "R 28 670"},{"package": "Architectural Plus ","annual" :  "R 23 610", "perpetual": "R 47 220"},{"package": "Engineering Essentials","annual" :  "R 23 610", "perpetual": "R 47 220"},{"package": "Engineering Plus","annual" :  "R 33 730", "perpetual": "R 65 780"},{"package": "Engineering Pro","annual" :  "R 53 970", "perpetual": "R 96 140"},{"package": "Engineering Pro (Student Personal Licence only)","annual" :  "R 1 350", "perpetual": "R (Annual only)"}],"singlemodule": [{"module": "Simulation","annual" :  "R 11 800", "perpetual": "R 19 390"},{"module": "Visualisation","annual" :  "R 4 710", "perpetual": "R 7 240"},{"module": "Daylighting","annual" :  "R 9 270", "perpetual": "R 15 170"},{"module": "Cost","annual" :  "R 9 270", "perpetual": "R 15 170"},{"module": "HVAC","annual" :  "R 9 270", "perpetual": "R 15 170"},{"module": "Optimisation","annual" :  "R 11 800", "perpetual": "R 19 390"},{"module": "CFD","annual" :  "R 3 360", "perpetual": "R 6 740"},{"module": "LEED","annual" :  "R 9 270", "perpetual": "R 15 170"},{"module": "Scripting (EMS)","annual" :  "R 9 270", "perpetual": "R 15 170"}],"discount": [
         {
             "type": "Early renewal",
             "percentage" : "10%",
             "requirements" : "Applicable to customers renewing their annual licence before it expires"
         },
         {
-            "type": "Upgrade (v5)",
+            "type": "Upgrade",
             "percentage" : "40%",
             "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.5 to v.6"
         },
         {
-            "type": "Upgrade (v4)",
+            "type": "Upgrade",
             "percentage" : "20%",
             "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.4 to v.6"
         },
         {
-            "type": "Upgrade (v3)",
+            "type": "Upgrade",
             "percentage" : "10%",
             "requirements" : "Applicable to customers on a perpetual licence, upgrading from DesignBuilder v.3 to v.6"
         },
