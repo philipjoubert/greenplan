@@ -64,7 +64,7 @@ Images for case studies are organized in folders as follows:
 ###Training modules
 Training modules are located in
     
-    source/training
+    source/designbuilder/training
 
 ####Images for modules
 Images for case studies are organized in folders as follows:
@@ -74,7 +74,7 @@ Images for case studies are organized in folders as follows:
 ###Training courses
 The data for upcoming training courses is stored in 
 
-    data/training.json
+    data/designbuilder/training.json
 
 The format of .json files is extremely import. The most common mistake to make is adding an extra comma or leaving a comma out.
 

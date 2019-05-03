@@ -5,7 +5,7 @@
     <div class="vertical-center">
       <div class="inner">
         <h1>
-          DesignBuilder
+          DesignBuilder Support
           <small class="secondary">
             Building Performance Analysis Software
           </small>
@@ -16,36 +16,46 @@
 </div>
 <%= partial "partials/design_builder_nav" %>
 
-<div class="training-module">
+<div class="support">
 	<div class="container">
 		<div class="row">
 			<div class="sidebar-navigation col-md-3">
-				<h5>Support</h5>
+				<h5>DesignBuilder Support</h5>
 				<ul>
-          <li>
-            <%= nav_link "General", "#general" %>
-          </li>
 					<li>
-						<%= nav_link "Licensing", "#licensing" %>
+						<%= nav_link "Greenplan support policy", "#greenplan-support-policy" %>
 					</li>
 					<li>
-						<%= nav_link "Modelling", "#modelling" %>
+						<%= nav_link "FAQ", "#faq" %>
 					</li>
 					<li>
-						<%= nav_link "Troubleshooting", "#troubleshooting" %>
+						<%= nav_link "FAQ - General", "#general" %>
 					</li>
-        </ul>
+					<li>
+						<%= nav_link "FAQ - Licensing", "#licensing" %>
+					</li>
+					<li>
+						<%= nav_link "FAQ - Modelling", "#modelling" %>
+					</li>
+					<li>
+						<%= nav_link "FAQ - Troubleshooting", "#troubleshooting" %>
+					</li>
+					<li>
+						<%= nav_link "Learning resources", "#learning-resources" %>
+					</li>
+				</ul>
 			</div>
 			<div class="col-md-9">
 				<article>
 					<%= yield %>
 				</article>
 			</div>
+		</div>
 	</div>
 </div>
 
 <div class="m-t-lg">
-	<%= partial "partials/cta" %>
+	<%= partial "partials/cta_training" %>
 </div>
 
 <% end %>

@@ -5,7 +5,7 @@
     <div class="vertical-center">
       <div class="inner">
         <h1>
-          DesignBuilder
+          DesignBuilder Resources
           <small class="secondary">
             Building Performance Analysis Software
           </small>
@@ -16,14 +16,23 @@
 </div>
 <%= partial "partials/design_builder_nav" %>
 
-<div class="training-module">
+<div class="resources">
 	<div class="container">
 		<div class="row">
 			<div class="sidebar-navigation col-md-3">
-				<h5>Resources</h5>
+				<h5>DesignBuilder Resources</h5>
 				<ul>
 					<li>
+						<%= nav_link "Free trial", "#free-30-day-software-trial" %>
+					</li>
+					<li>
 						<%= nav_link "Hardware Requirements", "#hardware-requirements" %>
+					</li>
+					<li>
+						<%= nav_link "Recommended versions", "#recommended-versions" %>
+					</li>
+					<li>
+						<%= nav_link "Learning resources", "#learning-resources" %>
 					</li>
 					<li>
 						<%= nav_link "Downloads", "#downloads" %>
@@ -35,11 +44,12 @@
 					<%= yield %>
 				</article>
 			</div>
+		</div>
 	</div>
 </div>
 
 <div class="m-t-lg">
-	<%= partial "partials/cta" %>
+	<%= partial "partials/cta_training" %>
 </div>
 
 <% end %>

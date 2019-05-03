@@ -1,0 +1,32 @@
+<section class="cta">
+  <div class="container">
+  	<h4 class="m-b-lg">
+  		Learn more about DesignBuilder
+  	</h4>
+    <script type="text/javascript" language="javascript">
+<!--
+// Email obfuscator script 2.1 by Tim Williams, University of Arizona
+// Random encryption key feature coded by Andrew Moulden
+// This code is freeware provided these four comment lines remain intact
+// A wizard to generate this code is at http://www.jottings.com/obfuscator/
+{ coded = "JKhIJ@bqIIdYhKd.jk.MK"
+  key = "0zJSCEDqOhPAK84VeWcFn5MTUQpwoL7vZNRg2I6jXdfs39yYrkl1taHGbxBimu"
+  shift=coded.length
+  link=""
+  for (i=0; i<coded.length; i++) {
+    if (key.indexOf(coded.charAt(i))==-1) {
+      ltr = coded.charAt(i)
+      link += (ltr)
+    }
+    else {
+      ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+      link += (key.charAt(ltr))
+    }
+  }
+document.write("<a href='mailto:"+link+"?subject=Question about DesignBuilder' class='btn green'>Email "+link+"</a>")
+}
+//-->
+</script>
+<noscript>Please enable Javascript in your browser.</noscript>
+  </div>
+</section>
