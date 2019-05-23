@@ -1,39 +1,39 @@
 {
   "courses": [
 		{
-			"date": "13 May 2019",
-			"location" : "Stellenbosch, Western Cape",
+			"date": "October 2019 (TBC)",
+			"location" : "Gauteng",
 			"title" : "DesignBuilder Modeller",
 			"description" : "The first module is the introduction to the DesignBuilder interface, with a focus on model geometry information input and drawing models.",
       "link": "/training/3d-modeling"
 		},
 		{
-			"date" : "14 May 2019",
-			"location" : "Stellenbosch, Western Cape",
+			"date" : "October 2019 (TBC)",
+			"location" : "Gauteng",
 			"title" : "DesignBuilder Simulation",
 			"description" : "This module focuses on running simulations and extracting data from DesignBuilder.",
       "link": "/training/simulation"
 
 		},
 		{
-			"date": "15 May 2019",
-			"location": "Stellenbosch, Western Cape",
+			"date": "October 2019 (TBC)",
+			"location": "Gauteng",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This day demonstrates how DesignBuilder is easily used to determine whether a house complies with the SANS 10400-XA standard by following the building energy modelling route.",
       "link": "/training/sans-10400-xa"
 
 		},
 		{
-			"date": "16 May 2019",
-			"location": "Stellenbosch, Western Cape",
+			"date": "October 2019 (TBC)",
+			"location": "Gauteng",
 			"title": "DesignBuilder HVAC",
 			"description" : "This module demonstrates how DesignBuilder is used to model modern HVAC systems at the component detail level.",
       "link": "/training/hvac"
 
 		},
 		{
-			"date": "17 May 2019",
-			"location": "Stellenbosch, Western Cape",
+			"date": "October 2019 (TBC)",
+			"location": "Gauteng",
 			"title": "DesignBuilder Advanced Modules",
 			"description" : "This day looks at other powerful modules and calculation functionality within the software. The course is structured in such a way that the three most popular topics will be covered: (1) CFD (2) Natural Ventilation and (3) Thermal Comfort. ",
       "link": "/training/cfd"
