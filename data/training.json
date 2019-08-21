@@ -1,14 +1,14 @@
 {
   "courses": [
 		{
-			"date": "October 2019 (TBC)",
+			"date": "28th October 2019",
 			"location" : "Gauteng",
 			"title" : "DesignBuilder Modeller",
 			"description" : "The first module is the introduction to the DesignBuilder interface, with a focus on model geometry information input and drawing models.",
       "link": "/training/3d-modeling"
 		},
 		{
-			"date" : "October 2019 (TBC)",
+			"date" : "29th October 2019",
 			"location" : "Gauteng",
 			"title" : "DesignBuilder Simulation",
 			"description" : "This module focuses on running simulations and extracting data from DesignBuilder.",
@@ -16,7 +16,7 @@
 
 		},
 		{
-			"date": "October 2019 (TBC)",
+			"date": "30th October 2019",
 			"location": "Gauteng",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This day demonstrates how DesignBuilder is used to determine whether a house complies with the SANS 10400-XA standard by following the building energy modelling route.",
@@ -24,7 +24,7 @@
 
 		},
 		{
-			"date": "October 2019 (TBC)",
+			"date": "31st October 2019 (TBC)",
 			"location": "Gauteng",
 			"title": "DesignBuilder HVAC",
 			"description" : "This module demonstrates how DesignBuilder is used to model modern HVAC systems at the component detail level.",
