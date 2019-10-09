@@ -24,16 +24,16 @@
 
 		},
 		{
-			"date": "31st October 2019 (TBC)",
-			"location": "314 On Clark, Pretoria, Gauteng",
+			"date": "May 2020 (TBC)",
+			"location": "Western Cape (TBC)",
 			"title": "DesignBuilder HVAC",
 			"description" : "This module demonstrates how DesignBuilder is used to model modern HVAC systems at the component detail level. ECSA CPD (1&nbsp;point).",
       "link": "/training/hvac"
 
 		},
 		{
-			"date": "October 2019 (TBC)",
-			"location": "314 On Clark, Pretoria, Gauteng",
+			"date": "May 2020 (TBC)",
+			"location": "Western Cape (TBC)",
 			"title": "DesignBuilder Advanced Modules",
 			"description" : "This day is spent looking at other powerful modules and calculation functionality within the software. The module is structured such that the three most popular topics will be covered: (1) CFD (2) Natural Ventilation and (3) Thermal Comfort. ",
       "link": "/training/cfd"
