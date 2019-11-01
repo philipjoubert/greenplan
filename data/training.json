@@ -1,23 +1,23 @@
 {
   "courses": [
 		{
-			"date": "28th October 2019",
-			"location" : "314 On Clark, Pretoria, Gauteng",
+			"date": "May 2020 (TBC)",
+			"location": "Western Cape (TBC)",
 			"title" : "DesignBuilder Modeller",
 			"description" : "Forms a module with the second day. This first day is the introduction to the DesignBuilder interface, with a focus on model geometry information input and drawing models. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
       "link": "/training/3d-modeling"
 		},
 		{
-			"date" : "29th October 2019",
-			"location" : "314 On Clark, Pretoria, Gauteng",
+			"date": "May 2020 (TBC)",
+			"location": "Western Cape (TBC)",
 			"title" : "DesignBuilder Simulation",
 			"description" : "Forms a module with the first day.  This second day focuses on running simulations and extracting data from DesignBuilder. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
       "link": "/training/simulation"
 
 		},
 		{
-			"date": "30th October 2019",
-			"location": "314 On Clark, Pretoria, Gauteng",
+			"date": "May 2020 (TBC)",
+			"location": "Western Cape (TBC)",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This module demonstrates how DesignBuilder is used to determine whether a house complies with the SANS 10400-XA standard by following the building energy modelling route. SACAP CPD (1&nbsp;point), ECSA CPD (1&nbsp;point).",
       "link": "/training/sans-10400-xa"
