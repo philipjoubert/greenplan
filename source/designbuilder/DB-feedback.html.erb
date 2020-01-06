@@ -1,0 +1,53 @@
+---
+date: 2020-01-06
+title: Contact
+---
+
+<div id="case-studies-index">
+	<div class="container text-center m-y-lg">
+		<header>
+			<h1 class="text-uppercase">DesignBuilder Feedback</h1>
+			<p>Are you a DesignBuilder user? Please let us have your feedback on the software.</p>
+		</header>
+	</div>
+</div>
+
+<div class="container m-b-lg">
+	<div class="row">
+		<div class="col-md-6 hidden-sm-down">
+			<form name="DBfeedback" action="thank-you" netlify>
+			  <p>
+			    <label>Your Name:</label>
+			    <input type="text" placeholder="Elon Musk" name="name" class="form-control" required>
+			  </p>
+			  <p>
+			    <label>Your Email Address:</label>
+			    <input type="email" name="email" placeholder="elon@spacex.com" class="form-control" required>
+			  </p>
+			  <p>
+			    <label>Your Orgnisation (optional):</label>
+			    <input type="text" placeholder="Space-X" name="organisation" class="form-control">
+			  </p>
+			  <p>
+			    <label>DesignBuilder Activation Code (required):</label>
+			    <input type="number" placeholder="99999999" name="activationcode" class="form-control" required>
+			  </p>
+			  <p>
+			    <label>Message</label>
+			    <textarea name="message" rows="6" placeholder="Your feedback" class="form-control"></textarea>
+			  </p>
+			  <p>
+			    <button class="btn btn-success btn-lg">Send</button>
+			  </p>
+			</form>
+		</div>
+
+	</div>
+</div>
+
+<!--Sven commenting out the map code below on 2018-10-0 since map plugin seems to usually malfunction -->
+<!--div class="google-map" id="map"></div-->
+
+<!--script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script-->
+
+<!--%= partial "partials/google_maps" %-->
