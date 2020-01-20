@@ -53,8 +53,8 @@ end
 
 set :absolute_prefix, "http://localhost:4567"
 
-set :app_name, 'GreenPlan'
-set :app_meta_description, 'Consulting engineers for XA-10400, building energy simulation'
+set :app_name, 'Greenplan'
+set :app_meta_description, 'Consulting engineers for SANS 10400-XA, building energy simulation, building performance analysis'
 
 set :google_analytics_key, "XXX"
 

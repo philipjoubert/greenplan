@@ -1,0 +1,23 @@
+---
+date: 2020-01-13
+title: Parking garage smoke CFD
+description: The objective is to analyse a proposed smoke ventilation design for a 27 000 m² parking garage, to evaluate its effectiveness and inform design changes if necessary.
+image: parking-garage-smoke-CFD.png
+customer: V&A Waterfront
+---
+
+<p class="intro-paragraph">
+	The objective is to study xxxxx.   This case study was [presented](resources/CSIR_CHPC_Dec 2019_Greenplan.pdf) at the CSIR Centre for High Performance Computing conference in December 2019.
+</p>
+
+###Project brief and constraints
+
+
+###The building and model
+xxxxxxxxxxxxx
+
+![](case-studies/xxxxx.png)
+
+<p class="caption">Figure 1: Picture of the house, and plan drawings.</p>
+
+xxxxxxxx

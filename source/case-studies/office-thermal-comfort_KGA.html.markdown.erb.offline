@@ -1,0 +1,25 @@
+---
+date: 2020-01-13
+title: Thermal comfort and productivity in an office
+description: Exploring how an office's thermal comfort improvement pays for itself in increased productivity.
+image: office-thermal-comfort01.png
+customer: Thembani building
+---
+
+If you could increase your staff productivity by making a simple improvement to the building they work in, would you?
+
+One factor that can lead to better productivity is indoor temperature and thermal comfort. Greenplan recently undertook an analysis of an office in Somerset West. The office has air-conditioning, but the staff prefer not to use it. Currently the office ceiling is uninsulated; one of the purposes of the study was to determine the effect of thermal insulation above the ceiling on the office temperature and staff productivity.
+
+A 3D model of the office and surrounding building, including all windows, walls and material properties, was created in DesignBuilder. Annual simulations were undertaken with hourly weather data for Somerset West to predict the hourly office temperature. No artificial heating or air-conditioning was simulated in these simulations - the only cooling was by means of limited natural ventilation through open windows, calculated based on the wind conditions in the weather data file.
+
+A sample temperature colour plot on a hot January day is shown in Figure 1 for the case without ceiling insulation.
+
+![](case-studies/office-thermal-comfort/office-thermal-comfort01.png)
+
+<p class="caption">Figure 1: Air temperature colour plot (dark blue: 36 °C; dark red: 43 °C)</p>
+
+The loss of productivity related to temperature and thermal discomfort can be predicted from the office temperature by means of a number of mathematical correlations. Such correlations are based on averages and are dependent on some subjective factors, so it should be kept in mind that this is not an exact science. That said, the addition of thermal insulation on the ceiling in this case was predicted to increase the annual productivity of staff by 3-4 % due to improved conditions in hot weather. That might not sound impressive, but, for this particular office, it is estimated that the insulation material cost would be 10-30 % of the total increase in productivity in one year. In other words, a favourable return on investment could be obtained with a payback period of less than a year – it would only take a few months to profit from the benefit of the insulation! So apart from the benefit to employee mood, there is a financial benefit.
+
+With the building in its current state without insulation, if air-conditioning were used to control the temperature between 19-25°C, 90 % more electrical energy would be consumed than if ceiling insulation were installed. The electricity consumption would be nearly double that which could be obtained with ceiling insulation. So either way you look at it - worker productivity, or energy usage - ceiling insulation plays a significant role.
+
+Temperature and thermal comfort are one of several factors that can affect employee productivity. There are a number of others such as daylight levels and outdoor air supply. Don’t underestimate the possible impact of these on your employees.
