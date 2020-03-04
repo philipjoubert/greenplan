@@ -2,14 +2,14 @@
   "courses": [
 		{
 			"date": "11 May 2020",
-			"location": "Western Cape (TBC)",
+			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title" : "DesignBuilder Modeller",
 			"description" : "Forms a module with the second day. This first day is the introduction to the DesignBuilder interface, with a focus on model geometry information input and drawing models. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
       "link": "/training/3d-modeling"
 		},
 		{
 			"date": "12 May 2020",
-			"location": "Western Cape (TBC)",
+			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title" : "DesignBuilder Simulation",
 			"description" : "Forms a module with the first day.  This second day focuses on running simulations and extracting data from DesignBuilder. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
       "link": "/training/simulation"
@@ -17,7 +17,7 @@
 		},
 		{
 			"date": "13 May 2020",
-			"location": "Western Cape (TBC)",
+			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This module demonstrates how DesignBuilder is used to determine whether a house complies with the SANS 10400-XA standard by following the building energy modelling route. SACAP CPD (1&nbsp;point), ECSA CPD (1&nbsp;point).",
       "link": "/training/sans-10400-xa"
@@ -25,7 +25,7 @@
 		},
 		{
 			"date": "14 May 2020",
-			"location": "Western Cape (TBC)",
+			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "DesignBuilder HVAC",
 			"description" : "This module demonstrates how DesignBuilder is used to model modern HVAC systems at the component detail level. ECSA CPD (1&nbsp;point).",
       "link": "/training/hvac"
@@ -33,7 +33,7 @@
 		},
 		{
 			"date": "15 May 2020",
-			"location": "Western Cape (TBC)",
+			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "DesignBuilder Advanced Modules",
 			"description" : "This day is spent looking at other powerful modules and calculation functionality within the software. The module is structured such that the three most popular topics will be covered: (1) CFD (2) Natural Ventilation and (3) Thermal Comfort. ",
       "link": "/training/cfd"
