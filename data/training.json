@@ -1,14 +1,14 @@
 {
   "courses": [
 		{
-			"date": "8 July 2020",
+			"date": "8 June 2020",
 			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title" : "DesignBuilder Modeller",
 			"description" : "Forms a module with the second day. This first day is the introduction to the DesignBuilder interface, with a focus on model geometry information input and drawing models. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
       "link": "/training/3d-modeling"
 		},
 		{
-			"date": "9 July 2020",
+			"date": "9 June 2020",
 			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title" : "DesignBuilder Simulation",
 			"description" : "Forms a module with the first day.  This second day focuses on running simulations and extracting data from DesignBuilder. The two-day module offers SACAP CPD (2&nbsp;points) and ECSA CPD (2&nbsp;points).",
@@ -16,7 +16,7 @@
 
 		},
 		{
-			"date": "10 July 2020",
+			"date": "10 June 2020",
 			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "Using DesignBuilder for SANS 10400 XA",
 			"description": "This module demonstrates how DesignBuilder is used to determine whether a house complies with the SANS 10400-XA standard by following the building energy modelling route. SACAP CPD (1&nbsp;point), ECSA CPD (1&nbsp;point).",
@@ -24,7 +24,7 @@
 
 		},
 		{
-			"date": "11 July 2020",
+			"date": "11 June 2020",
 			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "DesignBuilder HVAC",
 			"description" : "This module demonstrates how DesignBuilder is used to model modern HVAC systems at the component detail level. ECSA CPD (1&nbsp;point).",
@@ -32,7 +32,7 @@
 
 		},
 		{
-			"date": "12 July 2020",
+			"date": "12 June 2020",
 			"location": "LovanE Wine Estate, Stellenbosch, Western Cape",
 			"title": "DesignBuilder Advanced Modules",
 			"description" : "This day is spent looking at other powerful modules and calculation functionality within the software. The module is structured such that the three most popular topics will be covered: (1) CFD (2) Natural Ventilation and (3) Thermal Comfort. ",
