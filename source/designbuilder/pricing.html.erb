@@ -22,46 +22,46 @@ title: Pricing
 
 <div class="container m-t-lg">
 	<header class="section-header">
-		<div class="content-narrow">
-            <article><%= image_tag "design-builder/design-builder-logo.jpg", class: "m-b" %>
-		<p>
+	   <div class="content-narrow">
+        <article><%= image_tag "design-builder/design-builder-logo.jpg", class: "m-b" %>
+		        <p>
                 DesignBuilder is available in various packages to suit individual requirements.
-		</p>
-            </article>
-		</div>
+		        </p>
+        </article>
+	   </div>
 	</header>
 	<div class="content-narrow">
     <article>
-        <h2>Single User Licences</h2>
-		<p>
-			Single user licences allow the user to install DesignBuilder on a single machine (and move it between machines). Both packages and individual modules are available.
-    		</p>
+      <h2>Single User Licences</h2>
+		  <p>
+			    Single user licences allow the user to install DesignBuilder on a single machine (and move it between machines). Both packages and individual modules are available.
+    	</p>
 	    <p>
-      The prices shown below are indicative - please consult the <%= link_to "full price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices.pdf", :target=>"_blank" %> for more details. Customers not resident in the Republic of South Africa should consult our <%= link_to "international price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices_Intl.pdf", :target=>"_blank" %>.
+          The prices shown below are indicative - please consult the <%= link_to "full price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices.pdf", :target=>"_blank" %> for more details. Customers not resident in the Republic of South Africa should consult our <%= link_to "international price list", "http://www.greenplan.co.za/resources/0%20DesignBuilder_V6_Prices_Intl.pdf", :target=>"_blank" %>.
 	    </p>
-	<p>
-	<!--H3>Packages</H3-->
-		<table class="table pricing-options">
-			<thead>
-				<tr>
-					<th>Package</th>
-					<th>Annual licence</th>
-					<th>Perpetual V. 6 licence</th>
-				</tr>
-			</thead>
-			<tbody>
-				<% data.pricing.single.each do |single| %>
-				<tr>
-					<td><h6><%= single.package %></h6></td>
-					<td><%= single.annual %></td>
-					<td><%= single.perpetual %></td>
-				</tr>
-				<% end %>
-			</tbody>
-		</table>
-		Prices include VAT at 15 %.
-		</p>
-		<p>
+	    <p>
+	    <!--H3>Packages</H3-->
+		  <table class="table pricing-options">
+			   <thead>
+				    <tr>
+					     <th>Package</th>
+					     <th>Annual licence</th>
+					     <th>Perpetual V. 6 licence</th>
+				    </tr>
+			   </thead>
+			   <tbody>
+				    <% data.pricing.single.each do |single| %>
+				    <tr>
+					     <td><h6><%= single.package %></h6></td>
+					     <td><%= single.annual %></td>
+					     <td><%= single.perpetual %></td>
+				    </tr>
+				    <% end %>
+			   </tbody>
+		   </table>
+		   Prices include VAT at 15 %.
+		   </p>
+
 	<!--H3>Individual Modules</H3>
 		<table class="table pricing-options">
 			<thead>
@@ -82,7 +82,8 @@ title: Pricing
 			</tbody>
 		</table>
 		Prices include VAT at 15 %.
-		</p--> 
+		</p-->
+
         <h2>Site & Seat (Network) Licences</h2>
         <p>
             A network licence allows a customer to install DesignBuilder licence server software on a single server machine. This machine then distributes module seat licences to the various computers on a shared network. Licencing of off-site machines is possible using VPN and similar technology, and is allowed by the licence agreement.
@@ -171,7 +172,7 @@ document.write("<a href='mailto:"+link+"?subject=DesignBuilder - Purchase order&
 }
 //-->
 </script>
-<noscript>Please enable Javascript in your browser.</noscript>
+  <noscript>Please enable Javascript in your browser.</noscript>
     	</p>
     </article>
 	</div>
