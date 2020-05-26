@@ -30,10 +30,33 @@ title: Pricing
         </article>
 	   </div>
 	</header>
+<!--/div-->
+<div class="row">
+	<div class="sidebar-navigation col-md-3">
+		<h5>DesignBuilder Pricing</h5>
+		<ul>
+			<li>
+				<%= nav_link "Single User Licences", "#single-user-licences" %>
+			</li>
+			<li>
+				<%= nav_link "Site & Seat (Network) Licences", "#site-&-seat-(network)-licences" %>
+			</li>
+			<li>
+				<%= nav_link "Annual vs Perpetual", "#annual-vs-perpetual" %>
+			</li>
+			<li>
+				<%= nav_link "Discounts", "#discounts" %>
+			</li>
+			<li>
+				<%= nav_link "Purchasing", "#purchasing" %>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-9">
 
 	<div class="content-narrow">
     <article>
-      <h2>Single User Licences</h2>
+      <A name="single-user-licences"><h2>Single User Licences</h2></a>
 		  <p>
 			    Single user licences allow the user to install DesignBuilder on a single machine (and move it between machines). Both packages and individual modules are available.
     	</p>
@@ -60,7 +83,7 @@ title: Pricing
 				    <% end %>
 			   </tbody>
 		   </table>
-		   Prices include VAT at 15 %.
+		   Prices include VAT at 15&nbsp;%.
 		   </p>
 
 	<!--H3>Individual Modules</H3>
@@ -85,7 +108,7 @@ title: Pricing
 		Prices include VAT at 15 %.
 		</p-->
 
-        <h2>Site & Seat (Network) Licences</h2>
+        <A name="site-&-seat-(network)-licences"><h2>Site & Seat (Network) Licences</h2></A>
         <p>
             A network licence allows a customer to install DesignBuilder licence server software on a single server machine. This machine then distributes module seat licences to the various computers on a shared network. Licencing of off-site machines is possible using VPN and similar technology, and is allowed by the licence agreement.
         </p>
@@ -117,7 +140,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>.")
 <noscript>Please enable Javascript in your browser.</noscript>
 	</p>
 
-        <h2>Annual vs Perpetual</h2>
+        <A name="annual-vs-perpetual"><h2>Annual vs Perpetual</h2></a>
         <p>DesignBuilder (in all formats above) is licensed to the user on either an annual or a perpetual basis.
             <ul>
                 <li> Annual licences require renewal each year.  Users are eligible for all upgrades on the modules that they have purchased, for free.</li>
@@ -125,7 +148,7 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>.")
             </ul>
         </p>
 
-        <h2>Discounts</h2>
+        <A name="discounts"><h2>Discounts</h2></A>
             <p>Greenplan Consultants, in partnership with DesignBuilder UK, offers discounts as follows.</p>
             <table class="table pricing-options">
     			<thead>
@@ -146,10 +169,9 @@ document.write("<a href='mailto:"+link+"'>"+link+"</a>.")
     			</tbody>
     		</table>
         See our price list for special pricing on student personal licences.
-        <p>
-        <h2>Purchasing</h2></p>
-    	<p>
-    		To order DesignBuilder, please download and complete a <a href="http://www.greenplan.co.za/resources/1%20Purchase%20Form.pdf" target="_blank"><b>purchase order form</b></a> and return to <script type="text/javascript" language="javascript">
+        <p></p>
+        <A name="purchasing"><h2>Purchasing</h2></A>
+   		To order DesignBuilder, please download and complete a <a href="http://www.greenplan.co.za/resources/1%20Purchase%20Form.pdf" target="_blank"><b>purchase order form</b></a> and return to <script type="text/javascript" language="javascript">
 <!--
 // Email obfuscator script 2.1 by Tim Williams, University of Arizona
 // Random encryption key feature coded by Andrew Moulden
@@ -177,8 +199,10 @@ document.write("<a href='mailto:"+link+"?subject=DesignBuilder - Purchase order&
     	</p>
     </article>
 	</div>
+	</div>
+</div>
 </div>
 
 <div class="m-t-lg">
-	<%= partial "partials/cta_training" %>
+	<%= partial "partials/cta_db" %>
 </div>
