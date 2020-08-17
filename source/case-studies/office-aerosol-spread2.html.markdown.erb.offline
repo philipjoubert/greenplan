@@ -5,11 +5,11 @@ description: Showing how droplets from a sneeze can spread through an office.
 image: office-aerosol-spread04.png
 ---
 
-Are you worried about the spread of airborne aerosols and pollutants in your office? Do you want to make the air in your offices safer to breath with well-positioned vents and barriers? Would you like to know who is most at risk from exposure?
+Are you worried about the spread of airborne aerosols and pollutants in your office? Do you want to make the air in your offices safer to breathe with well-positioned vents and barriers? Would you like to know who is most at risk from exposure?
 
 Computational Fluid Dynamics (CFD) is a powerful tool that helps to predict complicated fluid and particle flow. CFD has the capability of tracking individual particles and gas species, so it is feasible to predict the spread of airborne aerosols or pollutants. This information can help to inform the design of ventilation and air conditioning (HVAC) systems and physical barriers, or the location of desks, queues and sitting areas.
 
-Greenplan did a case study for an office in Somerset West so see how easily the droplets from a sneeze could spread through the office space. A single sneeze was modelled to see where the particles go and on which surfaces the settling occurs. The geometry of the offices is shown below in Figures 1-2.
+Greenplan did a case study for an office in Somerset West to see how easily the droplets from a sneeze could spread through the office space. A single sneeze was modelled to see where the particles go and on which surfaces the settling occurs. The geometry of the offices is shown below in Figures 1-2.
 
 ![](case-studies/office-aerosol-spread/office-aerosol-spread01.png)
 
@@ -49,6 +49,6 @@ The following video shows the droplets moving through the office in real time.
   </video>
 </figure>
 
-Following the analysis above, it would be possible to make changes to the HVAC system and use the model to see whether the spread of the aerosol is better controlled or not.
+Following the analysis above, it would be possible to make changes to the HVAC system design in the model and use the model to see whether the spread of the aerosol is better controlled or not.
 
 Other applications for this type of analysis include wildfire and smoke or dust plume movement, crop spraying and spray irrigation. Please contact us if you have any questions!
