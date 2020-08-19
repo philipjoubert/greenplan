@@ -42,10 +42,11 @@ Sample results are provided in the figures below, showing a sneeze followed by t
 The following video shows the droplets moving through the office in real time.
 
 <figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="greenplan/source/images/case-studies/office-aerosol-spread/office-aerosol-spread04.png">
-    <source src="greenplan/source/images/case-studies/office-aerosol-spread/Sneeze.mp4" type="video/mp4">
-    <source src="greenplan/source/images/case-studies/office-aerosol-spread/Sneeze.ogg" type="video/ogg">
-    <source src="greenplan/source/images/case-studies/office-aerosol-spread/Sneeze.webm" type="video/webm">
+  <video controls="true" allowfullscreen="true" poster="/images/case-studies/office-aerosol-spread/office-aerosol-spread04.png" width="640" height="480">
+    <source src="/images/case-studies/office-aerosol-spread/Sneeze2.mp4" type="video/mp4" width="640" height="480" markdown="0">
+    <source src="/images/case-studies/office-aerosol-spread/Sneeze.ogg" type="video/ogg" width="640" height="480" markdown="0">
+    <source src="/images/case-studies/office-aerosol-spread/Sneeze.webm" type="video/webm" width="640" height="480" markdown="0">
+      Sorry, your browser does not support embedded videos.
   </video>
 </figure>
 
