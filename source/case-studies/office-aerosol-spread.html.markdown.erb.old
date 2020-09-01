@@ -1,0 +1,44 @@
+---
+date: 2020-07-30
+title: A sneeze in an office
+description: Showing how droplets from a sneeze can spread through an office.
+image: office-aerosol-spread04.png
+---
+
+Are you worried about the spread of airborne aerosols and pollutants in your office? Do you want to make the air in your offices safer to breathe with well-positioned vents and barriers? Would you like to know who is most at risk from exposure?
+
+Computational Fluid Dynamics (CFD) is a powerful tool that helps to predict complicated fluid and particle flow. CFD has the capability of tracking individual particles and gas species, so it is feasible to predict the spread of airborne aerosols or pollutants. This information can help to inform the design of ventilation and air conditioning (HVAC) systems and physical barriers, or the location of desks, queues and sitting areas.
+
+Greenplan did a case study for an office in Somerset West to see how easily the droplets from a sneeze could spread through the office space. A rough approximation of a single sneeze was modelled to see where the particles might go and on which surfaces settling occurs. The geometry of the offices is shown below in Figures 1-2.
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread01.png)
+
+<p class="caption">Figure 1: Office geometry (1) </p>
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread02.png)
+
+<p class="caption">Figure 2: Office geometry (2) </p>
+
+The office has a relatively simple air conditioning system - a single ceiling mounted inlet in each room, with an extraction grille in the ceiling above the main entrance door. The system was included in the model since it increases the movement of air from one room to another, and therefore the spread of contaminants and aerosols.
+
+Sample results are provided in the figures below, showing a sneeze followed by the spread of water droplets through the office space as a consequence of the air movement induced by the HVAC system. As can be seen in Figures 3-6, someone walking into the office through the main entrance door could be exposed to quite a few droplets for this specific case. There is a high air flow rate through the HVAC system which tends to flush the office contents into the passage.
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread03.png)
+
+<p class="caption">Figure 3: Early stage of sneeze </p>
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread04.png)
+
+<p class="caption">Figure 4: Sneeze spread (1) </p>
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread05.png)
+
+<p class="caption">Figure 5: Sneeze spread (2) </p>
+
+![](case-studies/office-aerosol-spread/office-aerosol-spread06.png)
+
+<p class="caption">Figure 6: Sneeze spread (3) </p>
+
+Following the analysis above, it would be possible to make changes to the HVAC system design in the model, and use the model to see whether the spread of the aerosol is better controlled or not.
+
+Other applications for this type of analysis include wildfire and smoke or dust plume movement, crop spraying and spray irrigation. Please contact us if you have any questions!
