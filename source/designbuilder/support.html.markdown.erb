@@ -84,6 +84,9 @@ See this [in-depth tutorial](/resources/DesignBuilder_Revit_gbXML_Tutorial_DB_v6
   * Windows that are too close to facade edges and risk exceeding the usable surface area.
   * Component blocks that interfere with each other or building blocks.
 
+* **Calculated natural ventilation - L-U factorisation problems** <br />
+  Try turning on "infiltration" at building level, at 0.001 ac/h (negligibly small).  This may solve the problem, by preventing division-by-zero in the simulation.
+  
 * **File Corruption** <br />
   Some DesignBuilder users have reported problems with .dsb files becoming corrupted. You may see a message like:
   *"Error loading file <br/>
@@ -112,7 +115,7 @@ See this [in-depth tutorial](/resources/DesignBuilder_Revit_gbXML_Tutorial_DB_v6
 * **Simulation Manager** <br />
   *"ERROR: Unable to connect to server"*
   
-  If you are trying to run the simulation on the local computer (server is your computer), see the **[solution here](/resources/How to fix DB simulation manager.pdf)**.  If you are trying to run on a separate simulation server, it is best to contact us for support as there are a number of parameters involved.
+  If you are trying to run the simulation on the local computer (i.e. the server is your computer), see the **[solution here](/resources/How to fix DB simulation manager.pdf)**.  If you are trying to run on a separate simulation server, it is best to contact us for support as there are a number of parameters involved.
   
   ##Learning resources
   For additional information on the software, you can also visit the **[DesignBuilder website](http://www.designbuilder.co.uk)**.  The site offers several free online **[tutorials](https://designbuilder.co.uk/training/tutorials)**, **[webinars](https://designbuilder.co.uk/training/webinars)** and **[additional learning resources](https://designbuilder.co.uk/training/other-learning-materials)**, explaining the software in more detail.  There is also free access to the **[knowledgebase](https://support.designbuilder.co.uk/index.php?/Knowledgebase/List)**.
